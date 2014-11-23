@@ -83,5 +83,17 @@ jQuery(document).ready(function($) {
         $('[data-rel="lightbox"]').lightbox();
       });
 
-
+  /*************** Detects touch-screen and adds CSS ****************/
+  if(Modernizr.touch){
+    
+    $(".portfolio-item .portfolio-thumb .portfolio-overlay").css('opacity','.8').css('visibility','visible');
+  }
+  else{
+    
+    /*$(".portfolio-item .portfolio-thumb .portfolio-overlay").css('opacity','.8').css('visibility','visible');*/
+  }
 });
+
+
+
+

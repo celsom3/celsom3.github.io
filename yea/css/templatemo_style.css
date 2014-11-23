@@ -492,6 +492,8 @@ a.toggle-menu {
 .service-item .service-icon {
   font-size: 3em;
   padding: 110px 0;
+  visibility: hidden;
+  opacity: 0;
 }
 .service-item .service-content {
   padding: 10px;
@@ -500,8 +502,8 @@ a.toggle-menu {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -519,12 +521,12 @@ a.toggle-menu {
   margin-bottom: 15px;
 }
 .service-item:hover .service-icon {
-  opacity: 0;
-  visibility: hidden;
-}
-.service-item:hover .service-content {
   opacity: 1;
   visibility: visible;
+}
+.service-item:hover .service-content {
+  opacity: 0;
+  visibility: hidden;
 }
 
 #service-1 {
