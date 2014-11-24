@@ -663,7 +663,7 @@ a.toggle-menu {
   -moz-border-radius: 18px;
 }
 .team-member .member-thumb:hover .team-overlay {
-  opacity: 1;
+  opacity: .8;
   visibility: visible;
 }
 
