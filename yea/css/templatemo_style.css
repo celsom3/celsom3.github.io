@@ -748,3 +748,18 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 */
+
+.social-donate{
+  width: 135px!important;
+  height: 86px;
+  background-color: #E21836;
+  color: #FFF;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 18px;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  position:relative;
+  top:2px;
+}
