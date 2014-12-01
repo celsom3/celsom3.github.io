@@ -846,3 +846,26 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
     top:-25px;
   }
 }
+
+.page-title h1{
+  font-size:2.1em;
+  font-weight: bolder;
+  margin-bottom:30px;
+}
+
+.feed-post-section{
+  margin:10px 0;
+}
+
+.feed-post-section > .read-more {
+  margin-top:15px;
+  margin-left:15px;
+}
+
+.feed-post-content h3{
+  font-size:1.3em;
+  font-weight: bolder;
+  margin-top:10px;
+}
+
+
