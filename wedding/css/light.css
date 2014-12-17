@@ -97,7 +97,7 @@ h6, p {
     color: #000
 }
 .wedding_invitation_parallax {
-    background: url(../img/arrow.png) repeat-x top scroll rgba(95, 6, 120, .7)
+    background: url(../img/arrow.png) repeat-x top scroll rgba(95, 6, 120, .4)
 }
 .wedding_invitation .thanks_cont p {
     color: #000
@@ -145,7 +145,7 @@ h6, p {
     color: #000
 }
 .lovestory_bottom_parallax {
-    background: rgba(95, 6, 120, .7) url(../img/arrow.png) repeat-x top
+    background: rgba(95, 6, 120, .4) url(../img/arrow.png) repeat-x top
 }
 .lovestory_bottom_parallax h2 {
     color: #000;
