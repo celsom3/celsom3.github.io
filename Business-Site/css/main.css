@@ -11,13 +11,39 @@
 	font-size: 1.6em;
 }
 
+.parallax-window{
+	min-height: 400px;
+	background-color: rgba(53, 129, 172, 0.5);
+	color:white;
+}
 
+#parallax1 > div > h1{
+	color:white;
+}
 
+.logo-digital{
+	color:#4D5457;
+	font-size:1.5em;
+}
 
+.logo-strategy{
+	color:#38BEE5;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
 
+.logo-tip{
+	color:#4D5457;
+	font-size: .8em;
+}
 
+.logo-digital, .logo-strategy, .logo-tips{
+	font-family: 'Titillium Web', sans-serif;
+}
 
-
+.contact{
+	margin:30px 0px;
+}
 
 
 
