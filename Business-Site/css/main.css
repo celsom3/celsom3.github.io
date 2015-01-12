@@ -45,8 +45,40 @@
 	margin:30px 0px;
 }
 
+/* ====  Styling for Contact Form   =========== */
 
 
+
+.section-title{
+	font-size:2em;
+	font-family: "Raleway", Arial, sans-serif;
+	font-weight: bolder;
+}
+
+.contact-text{
+	font-size:1.4em;
+}
+
+.form-label {
+	font-size: 2em;
+	color:white;
+
+}
+
+.contact-button{
+	border: 3px solid #DDE2E2;
+	background-color: #898989;
+	border-radius: 0;
+	color: #DDE2E2;
+	font-family: "Raleway", Arial, sans-serif;
+	font-size:1.5em;
+	font-weight: bolder;
+
+}
+
+#input-10, #input-11{
+	font-size: 1.5em;
+}
 
 
 
