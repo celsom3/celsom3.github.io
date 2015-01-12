@@ -12,7 +12,7 @@
 }
 
 .parallax-window{
-	min-height: 400px;
+	min-height: 200px;
 	background-color: rgba(53, 129, 172, 0.5);
 	color:white;
 }
