@@ -420,93 +420,7 @@
 					padding-left: 0.25em;
 				}
 				
-	/* Form */
-
-		form
-		{
-		}
-		
-			form label
-			{
-				display: block;
-				font-weight: 400;
-				color: #483949;
-				margin: 0 0 1em 0;
-			}
-		
-			form input[type="text"],
-			form input[type="email"],
-			form input[type="password"],
-			form select,
-			form textarea
-			{
-				-webkit-appearance: none;
-				display: block;
-				border: 0;
-				background: #fafafa;
-				width: 100%;
-				border-radius: 0.5em;
-				border: solid 1px #E5E5E5;
-				padding: 1em;
-				-moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				-webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				-o-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				-ms-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-				transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-			}
-
-			form input[type="text"],
-			form input[type="email"],
-			form input[type="password"],
-			form select
-			{
-				line-height: 1em;
-			}
-			
-			form textarea
-			{
-				min-height: 9em;
-			}
-
-				form input[type="text"]:focus,
-				form input[type="email"]:focus,
-				form input[type="password"]:focus,
-				form select:focus,
-				form textarea:focus
-				{
-					background: #fff;
-					border-color: #df7366;
-				}
-
-				form .formerize-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form ::-webkit-input-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form :-moz-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form ::-moz-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form :-ms-input-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form ::-moz-focus-inner
-				{
-					border: 0;
-				}
+	
 			
 	/* Table */
 	
@@ -675,7 +589,7 @@
 	.wrapper
 	{
 		background: #fff;
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 		padding: 6em 0 6em 0;
 	}
 	
@@ -1353,3 +1267,91 @@
 section.parallax-window ,.parallax-window > .container{
 	background: none;
 }
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.emphasis{
+	display: inline-block;
+	margin: 20px 30px;
+	font-weight: bolder;
+	font-size: 1.6em;
+}
+
+.parallax-window{
+	min-height: 200px!important;
+	background-color: rgba(53, 129, 172, 0.5)!important;
+	
+}
+
+#parallax1 > div > h1{
+	color:white;
+}
+
+.logo-digital{
+	color:#4D5457;
+	font-size:1.5em;
+}
+
+.logo-strategy{
+	color:#38BEE5;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+.logo-tip{
+	color:#4D5457;
+	font-size: .8em;
+}
+
+.logo-digital, .logo-strategy, .logo-tips{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.contact{
+	margin:30px 0px;
+}
+
+/* ====  Styling for Contact Form   =========== */
+
+
+
+.section-title{
+	font-size:1.5em;
+	margin-top:20px;
+	font-weight: bolder;
+}
+
+.contact-text{
+	font-size:1em;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.form-label {
+	font-size: 2em;
+	
+
+}
+
+.contact-button{
+	border: 3px solid #DDE2E2;
+	background-color: #898989;
+	border-radius: 0;
+	color: #DDE2E2;
+	font-family: "Raleway", Arial, sans-serif;
+	font-size:1.5em;
+	font-weight: bolder;
+
+}
+
+#input-10, #input-11{
+	font-size: 1em;
+}
+
+
+
+
