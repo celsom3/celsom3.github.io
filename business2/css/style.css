@@ -609,7 +609,8 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		background-image: url('../images/header02.jpg');
+		
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -618,6 +619,8 @@
 		padding: 2.5em 0 2em 0;
 		cursor: default;
 	}
+
+
 
 		.homepage #header
 		{
@@ -1264,15 +1267,18 @@
             height: 0;
         }
 
-section.parallax-window ,.parallax-window > .container{
-	background: none;
-}
 
-
+/*********************************************************************************/
+/*  CUSTOM STYLES                                                                      */
+/*********************************************************************************/
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+section.parallax-window ,.parallax-window > .container{
+	background: none;
+}
 
 .emphasis{
 	display: inline-block;
@@ -1283,7 +1289,7 @@ section.parallax-window ,.parallax-window > .container{
 
 .parallax-window{
 	min-height: 200px!important;
-	/*background-color: rgba(53, 129, 172, 0.5)!important;*/
+	/*background-color: rgba(12, 61, 109, 0.8)!important;*/
 	
 }
 
@@ -1323,23 +1329,26 @@ section.parallax-window ,.parallax-window > .container{
 	font-size:1.5em;
 	margin-top:20px;
 	font-weight: bolder;
+	color: white;
 }
 
 .contact-text{
 	font-size:1em;
 	margin-left:50px;
 	margin-right:50px;
+	color:white;
 }
 
 .form-label {
 	font-size: 2em;
+	color:white;
 	
 
 }
 
 .contact-button{
 	border: 3px solid #DDE2E2;
-	background-color: #898989;
+	background-color: #0C3D6D;
 	border-radius: 0;
 	color: #DDE2E2;
 	font-family: "Raleway", Arial, sans-serif;
@@ -1348,10 +1357,15 @@ section.parallax-window ,.parallax-window > .container{
 
 }
 
-#input-10, #input-11{
-	font-size: 1em;
+.contact-form{
+	/*margin-bottom: 50px;*/
 }
 
+section#banner > header{
+	margin:10px 50px;
+}
 
-
+.text-center{
+	text-align: center;
+}
 
