@@ -1297,20 +1297,27 @@ section.parallax-window ,.parallax-window > .container{
 	color:white;
 }
 
+.logo{
+
+
+}
+
 .logo-digital{
 	color:#4D5457;
-	font-size:1.5em;
+	color:white;
+	font-size:3.5em;
 }
 
 .logo-strategy{
 	color:#38BEE5;
 	font-weight: bolder;
-	font-size: 1.5em;
+	font-size: 3.5em;
 }
 
-.logo-tip{
+.logo-tips{
 	color:#4D5457;
-	font-size: .8em;
+	color:white;
+	font-size: 2.5em;
 }
 
 .logo-digital, .logo-strategy, .logo-tips{
@@ -1352,7 +1359,7 @@ section.parallax-window ,.parallax-window > .container{
 	border-radius: 0;
 	color: #DDE2E2;
 	font-family: "Raleway", Arial, sans-serif;
-	font-size:1.5em;
+	font-size:1.9em;
 	font-weight: bolder;
 
 }
