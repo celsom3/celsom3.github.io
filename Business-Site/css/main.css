@@ -71,7 +71,10 @@
 
 }
 
-
+.navbar-brand, a.navbar-brand{
+	background-color:purple;
+	color:white!important;
+}
 
 
 

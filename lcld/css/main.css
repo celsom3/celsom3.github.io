@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Custom Styles by Celso Mireles 
+   http://celsomireles.com
+   ========================================================================== */
+
+/* Under Construction Section */
+
+#construction{
+	height:100%;
+	background-color:rgba(30,283,183,0.5);
+	position: relative;
+    padding-bottom: 102px;   
+    min-height: 900px;
+    width: 100%;
+    background: #161415 url(../img/header-background.jpg) no-repeat center center;
+    background-size: cover !important;
+	-webkit-background-size: cover !important; 
+
+	color:white;
+}
+#construction > .container > .content{
+	text-align: center;
+	padding-top:20%;
+}
+#construction > .container > .content > h1{
+	font-size:3.3em;
+}
+
+
+/* MailChimp custom styling */
+
+#mc_embed_signup{
+	text-align: center;
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	min-width: 150px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#mc-embedded-subscribe{
+	background-color: #178!important;
+}
+
+#mce-EMAIL{
+	background-color: none!important;
+	background: none!important;
+	border: 2px solid gray!important;
+}
+
+.scroll-down{
+	
+	text-align: center;
+	min-width:80px;
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 50px;
+}
+
+.scroll-down > a{
+	color:white!important;
+	text-decoration: none;
+}
+
+
+/* About Section */
+
+#about{
+	height:100%;
+	background-color:rgba(30,283,183,0.5);
+	position: relative;
+    padding-bottom: 102px;   
+    min-height: 600px;
+    width: 100%;
+    background: #00958C;
+    background-size: cover !important;
+	-webkit-background-size: cover !important; 
+
+	color:white;
+}
+
+/* Dates Section */
+
+#dates{
+	min-height:400px;
+}
+
+
+
+#footer{
+	background-color: #232323;
+	color:white;
+	min-height:100px;
+	padding:30px 50px 15px 50px;
+}
+
+
+
+
+
