@@ -10,7 +10,7 @@
 	background-color:rgba(30,283,183,0.5);
 	position: relative;
     padding-bottom: 102px;   
-    min-height: 900px;
+    min-height: 600px;
     width: 100%;
     background: #161415 url(../img/header-background.jpg) no-repeat center center;
     background-size: cover !important;
@@ -20,7 +20,7 @@
 }
 #construction > .container > .content{
 	text-align: center;
-	padding-top:20%;
+	padding-top:15%;
 }
 #construction > .container > .content > h1{
 	font-size:3.3em;
@@ -30,13 +30,15 @@
 /* MailChimp custom styling */
 
 #mc_embed_signup{
-	text-align: center;
+	text-align: center!important;
 	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
 	min-width: 150px;
-	width:50%;
+	width:300px!important;
+	min-width: 200px!important;
 	margin-left:auto;
 	margin-right:auto;
+
 }
 
 #mc-embedded-subscribe{
@@ -44,9 +46,10 @@
 }
 
 #mce-EMAIL{
-	background-color: none!important;
-	background: none!important;
-	border: 2px solid gray!important;
+	background-color: rgba(200,200,200,0.4);
+	/*background: none!important;*/
+	border: 0px solid gray!important;
+	border-radius: 6px;
 }
 
 .scroll-down{
@@ -56,7 +59,7 @@
 	width:100px;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .scroll-down > a{
@@ -79,6 +82,10 @@
 	-webkit-background-size: cover !important; 
 
 	color:white;
+}
+
+#about a{
+	color:black!important;
 }
 
 /* Dates Section */

@@ -1,12 +1,13 @@
 $(document).ready(function(){
 	
+	
 	// Sets the height of all sections to screen height
 
 	var screenHeight = $(window).height();
 
 	$('#construction').css('height', screenHeight);
-	$('#about').css('height', screenHeight);
-	$('#dates').css('height', screenHeight);
+	$('#about').css('min-height', screenHeight);
+	$('#dates').css('min-height', screenHeight);
 
 	// Smooth Scrolling
 	$('a[href*=#]:not([href=#])').click(function() {
@@ -21,4 +22,7 @@ $(document).ready(function(){
       }
     }
   });
+
+  // Initializes Bigfoot footnotes plugin
+  $.bigfoot();
 });
