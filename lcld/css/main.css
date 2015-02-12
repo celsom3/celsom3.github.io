@@ -3,12 +3,15 @@
    http://celsomireles.com
    ========================================================================== */
 
+
+
 /* Under Construction Section */
 
 #construction{
 	height:100%;
 	background-color:rgba(30,283,183,0.5);
 	position: relative;
+
     padding-bottom: 102px;   
     min-height: 600px;
     width: 100%;
@@ -24,6 +27,17 @@
 }
 #construction > .container > .content > h1{
 	font-size:3.3em;
+}
+
+.slicknav_menu {
+display: none;
+}
+ @media screen and (max-width: 40000em) {
+.js #menu {
+display: none;
+}
+.js .slicknav_menu {
+display: block;
 }
 
 
@@ -75,6 +89,7 @@
 	background-color:rgba(30,283,183,0.5);
 	position: relative;
     padding-bottom: 102px;   
+    padding-top: 47px;
     min-height: 600px;
     width: 100%;
     background: #00958C;
@@ -88,10 +103,13 @@
 	color:black!important;
 }
 
+
+
 /* Dates Section */
 
 #dates{
 	min-height:400px;
+	padding-top: 47px;
 }
 
 
