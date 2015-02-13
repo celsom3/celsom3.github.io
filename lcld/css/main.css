@@ -4,8 +4,9 @@
    ========================================================================== */
 
 
-
-/* Under Construction Section */
+/******************************************/
+/****** Under Construction Section ********/
+/******************************************/
 
 #construction{
 	height:100%;
@@ -40,28 +41,27 @@ display: none;
 display: block;
 }
 
-
-/* MailChimp custom styling */
+/******************************************/
+/******** MailChimp custom styling ********/
+/******************************************/
 
 #mc_embed_signup{
 	text-align: center!important;
 	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
-	min-width: 150px;
 	width:300px!important;
 	min-width: 200px!important;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:auto!important;
+	margin-right:auto!important;
 
 }
 
 #mc-embedded-subscribe{
-	background-color: #178!important;
+	background-color: #9B1818!important;
 }
 
 #mce-EMAIL{
 	background-color: rgba(200,200,200,0.4);
-	/*background: none!important;*/
 	border: 0px solid gray!important;
 	border-radius: 6px;
 }
@@ -74,25 +74,29 @@ display: block;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 30px;
+
 }
 
 .scroll-down > a{
-	color:white!important;
 	text-decoration: none;
 }
 
+.scroll-down > a > i{
+	color:white;
+}
 
-/* About Section */
+/******************************************/
+/************* About Section **************/
+/******************************************/
 
 #about{
 	height:100%;
-	background-color:rgba(30,283,183,0.5);
 	position: relative;
     padding-bottom: 102px;   
     padding-top: 47px;
     min-height: 600px;
     width: 100%;
-    background: #00958C;
+    background: #0C4B89;
     background-size: cover !important;
 	-webkit-background-size: cover !important; 
 
@@ -104,8 +108,9 @@ display: block;
 }
 
 
-
-/* Dates Section */
+/******************************************/
+/************* Dates Section **************/
+/******************************************/
 
 #dates{
 	min-height:400px;
