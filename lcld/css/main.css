@@ -35,6 +35,24 @@ p{
 }
 
 /******************************************/
+/******  Navigation Section ********/
+/******************************************/
+
+#fixed-scroller{
+	position:fixed;
+	bottom: 15px;
+	right:15px;
+	float:right;
+	color:#B6C2CE;
+
+}
+
+.current{
+	background-color:pink!important;
+}
+
+
+/******************************************/
 /****** Under Construction Section ********/
 /******************************************/
 
