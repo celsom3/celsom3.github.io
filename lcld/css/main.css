@@ -156,6 +156,20 @@ display: block;
 	font-size: :1.9em;
 }
 
+.image-01{
+	width:100%;
+	max-width:300px;
+	float:right;
+	margin: 15px;
+}
+
+.image-02{
+	width:100%;
+	max-width:250px;
+	float:left;
+	margin: 15px;
+}
+
 /******************************************/
 /************* Dates Section **************/
 /******************************************/
