@@ -34,6 +34,10 @@ p{
 	font-size: 1.1em;
 }
 
+h1, h2, h3{
+	font-family: 'tikal_sans_mediumMdIt', 'Arial', 'sans-serif';
+}
+
 /******************************************/
 /******  Navigation Section ********/
 /******************************************/
@@ -72,10 +76,15 @@ p{
 }
 #construction > .container > .content{
 	text-align: center;
-	padding-top:15%;
+	
 }
 #construction > .container > .content > h1{
 	font-size:3.3em;
+}
+
+#logo{
+	max-width:50%;
+	margin:50px auto 0px auto;
 }
 
 .slicknav_menu {
@@ -187,6 +196,11 @@ display: block;
 	max-width:250px;
 	float:left;
 	margin: 15px;
+}
+
+.pillars{
+
+	
 }
 
 /******************************************/
