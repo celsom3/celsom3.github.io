@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Custom Styles by Celso Mireles 
+   Custom Design by Celso Mireles 
    http://celsomireles.com
    ========================================================================== */
 @font-face {
@@ -51,22 +51,17 @@ h1, h2, h3{
 
 }
 
-.current{
-	background-color:pink!important;
-}
-
 
 /******************************************/
 /****** Under Construction Section ********/
 /******************************************/
 
-#construction{
-	height:100%;
+#construction{	
 	background-color:rgba(30,283,183,0.5);
 	position: relative;
-
     padding-bottom: 102px;   
-    min-height: 600px;
+
+    height:100%;
     width: 100%;
     background: #161415 url(../img/header-background.jpg) no-repeat center center;
     background-size: cover !important;
@@ -170,8 +165,8 @@ display: block;
     padding-top: 47px;
     min-height: 600px;
     width: 100%;
-    background: #0C4B89;
-    background: #6D1F1F;
+    background: #9B1818;
+    /*background: #BA2222;*/
     background-size: cover !important;
 	-webkit-background-size: cover !important; 
 	font-family: 'tikal_sans_mediumMdIt', sans-serif;
@@ -189,22 +184,29 @@ display: block;
 }
 
 .image-01{
-	width:100%;
+	width:200px;
 	max-width:300px;
 	float:right;
 	margin: 15px;
 }
 
 .image-02{
-	width:100%;
+	width:180px;
 	max-width:250px;
 	float:left;
 	margin: 15px;
 }
 
-.pillars{
+#vision-statement{
+	margin-bottom:35px;
+}
 
+.pillars{
 	
+}
+
+.pillars > h4 {
+	margin-bottom:15px;
 }
 
 /******************************************/

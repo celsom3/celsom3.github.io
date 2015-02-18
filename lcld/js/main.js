@@ -10,7 +10,9 @@ $(document).ready(function(){
 	$('#dates').css('min-height', screenHeight);
 
   // Initializes Bigfoot footnotes plugin
-  $.bigfoot();
+  $.bigfoot({
+    preventPageScroll: false
+  });
 
   $('#menu').slicknav({
     'label' : '', // Label for menu button. Use an empty string for no label.
