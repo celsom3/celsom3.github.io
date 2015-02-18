@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 	var screenHeight = $(window).height();
 
-	$('#construction').css('height', screenHeight);
+	$('#construction').css('min-height', screenHeight);
 	$('#about').css('min-height', screenHeight);
 	$('#dates').css('min-height', screenHeight);
 
