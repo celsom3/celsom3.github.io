@@ -2,6 +2,10 @@
  * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * 
+ * Design tweaked & customized by Celso Mireles (http://celsomireles.com)
+ * for Silvia Villareal. Code live at {{SITE_URL}}
+ * Still licensed under the Apache License v2.0.
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin

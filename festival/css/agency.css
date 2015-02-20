@@ -2,6 +2,10 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * 
+ * Design tweaked & customized by Celso Mireles (http://celsomireles.com)
+ * for Silvia Villareal. Code live at {{SITE_URL}}
+ * Still licensed under the Apache License v2.0.
  */
 
 body {
@@ -119,14 +123,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #835AF5;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #835AF5;
 }
 
 .btn-xl:hover,
@@ -221,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #835AF5;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -265,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg2.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -502,7 +506,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #835AF5;
 }
 
 .timeline>li .timeline-image h4 {
