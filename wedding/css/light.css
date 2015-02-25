@@ -1,0 +1,415 @@
+body, html {
+    color: #333
+}
+h1, h2, h3, h4, h5 {
+    color: #000
+}
+h6, p {
+    color: #333
+}
+.small_btn, .small_btn:focus {
+    background-color: #333;
+    color: #fff
+}
+.small_btn:hover {
+    color: #333;
+    background-color: #e1e1e1
+}
+.sidebar-nav li {
+    border-color: rgba(251, 251, 251, .1)
+}
+.sidebar-nav li a {
+    color: #999
+}
+.sidebar-nav li a:hover {
+    background: rgba(0, 0, 0, .4);
+    color: #fff
+}
+#menu-toggle {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2)
+}
+#menu-toggle:hover {
+    color: #fff
+}
+#menu-close {
+    color: #fff;
+    border: 1px solid #fff
+}
+#sidebar-wrapper.active {
+    background: rgba(0, 0, 0, .9);
+    border-left: 1px solid #333
+}
+.banner_timer ul li, .banner_timer ul li span {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .5)
+}
+.marriage_banner {
+    background: url(../img/arrow1.png) repeat-x bottom
+}
+.marriage_banner h1, .marriage_banner h3, .marriage_banner p {
+    color: #000
+}
+.banner_timer ul li {
+    color: #fff;
+    background: rgba(95, 6, 120, .8)
+}
+.logo_top, .logo_top a, .logo_top a:hover {
+    color: #000
+}
+.top_arrow a {
+    color: #333;
+    background-color: rgba(251, 251, 251, .5)
+}
+.top_arrow a:hover {
+    background-color: rgba(251, 251, 251, .9)
+}
+.top-scroll a {
+    color: #333
+}
+.about_us {
+    background-color: #fff
+}
+.about_us h1, .about_us h2, .about_us p {
+    color: #333
+}
+.about_bottom_bg {
+    background: url(../img/arrow1.png) repeat-x bottom
+}
+.latest_sermons .bride .img img, .latest_sermons .groom .img img {
+    border: 10px solid #ccc
+}
+.recent_sermons .image img {
+    border: 5px solid #ccc
+}
+.recent_sermons .content {
+    background: none repeat scroll 0 0 #FFF
+}
+.wedding_invitation {
+    background: url(../img/parallax06.jpg) no-repeat fixed center center;
+    color: #000
+}
+.wedding_invitation h2 {
+    color: #000;
+    text-shadow: 0 1px 1px rgba(251, 251, 251, .5)
+}
+.wedding_invitation p {
+    color: #000
+}
+.wedding_invitation_parallax {
+    background: url(../img/arrow.png) repeat-x top scroll rgba(95, 6, 120, .4)
+}
+.wedding_invitation .thanks_cont p {
+    color: #000
+}
+.our_family_main {
+    background: none repeat scroll 0 0 #FFF
+}
+.our_family_cont {
+    background-color: rgba(251, 251, 251, .6)
+}
+.our_family_cont p {
+    color: #333
+}
+.family_botom_parallax {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, .8)
+}
+.family_member img {
+    border: 8px solid rgba(0, 0, 0, .1)
+}
+.hover-ef h3, .hover-ef p {
+    color: #000
+}
+.social li a {
+    color: #FFF;
+    background: none repeat scroll 0 0 #333
+}
+.social li a:hover {
+    color: #333;
+    background: none repeat scroll 0 0 #CCC
+}
+.family-tab-cont {
+    background: url(../img/line1.png) repeat-x center bottom
+}
+.family-tab-cont .tab-btns {
+    background: url(../img/line1.png) repeat-x center center
+}
+.family-tab-cont .tab-btns li a {
+    border: 8px solid rgba(0, 0, 0, .1)
+}
+.family-tab-cont .tab-btns li a.active, .family-tab-cont .tab-btns li a:hover {
+    border: 8px solid rgba(0, 0, 0, .3)
+}
+.lovestory_parallax {
+    background: url(../img/parallax07.jpg) no-repeat fixed center center;
+    color: #000
+}
+.lovestory_bottom_parallax {
+    background: rgba(95, 6, 120, .4) url(../img/arrow.png) repeat-x top
+}
+.lovestory_bottom_parallax h2 {
+    color: #000;
+    text-shadow: 0 1px 1px rgba(251, 251, 251, .5)
+}
+.lovestory_bottom_parallax p {
+    color: #000
+}
+.lovestory_bottom_bg {
+    background: url(../img/arrow1.png) repeat-x bottom
+}
+.lovestory_bottom_parallax .content_white {
+    background-color: rgba(0, 0, 0, .3);
+    color: #000
+}
+.option-set li, .option-set li a {
+    color: #333
+}
+.option-set li a.selected, .option-set li a:hover {
+    background-color: #333
+}
+.rsvp_main {
+    background: url(../img/parallax04.jpg) no-repeat fixed center center / cover transparent
+}
+.rsvp_main_parallax {
+    background: rgba(179, 98, 202, .9) url(../img/arrow.png) repeat-x top
+}
+.rsvp_bottom_bg {
+    background: url(../img/arrow1.png) repeat-x bottom
+}
+.rsvp_main_parallax h2 {
+    text-shadow: 0 1px 1px rgba(251, 251, 251, .5)
+}
+.rsvp_main_parallax h4 {
+    color: #000;
+    text-shadow: 0 1px 1px rgba(251, 251, 251, .5)
+}
+.rsvp_main_parallax p {
+    color: #000
+}
+.rsvp_outer {
+    background: none repeat scroll 0 0 #FFF
+}
+#rsvp-form hr {
+    background: 0 0;
+    border-bottom: 1px solid rgba(251, 251, 251, .1)
+}
+.input_text_w {
+    color: #000;
+    background: rgba(251, 251, 251, .2)
+}
+.textarea_text_w {
+    color: #000
+}
+.contact_address_cont {
+    background: none repeat scroll 0 0 #fff
+}
+.contact_address, .contact_address a, .contact_address i, .contact_address_cont p {
+    color: #333
+}
+.contact_content {
+    background: url(../img/parallax01.jpg) no-repeat fixed center center / cover transparent
+}
+.contact_content_parallax {
+    background: rgba(251, 251, 251, 1)
+}
+.contact_content_parallax h3 {
+    color: #333
+}
+#contact-form {
+    background: none repeat scroll 0 0 rgba(251, 251, 251, .9);
+    margin-bottom: 20px
+}
+.input_text {
+    color: #333;
+    background-color: #f1f1f1;
+    -moz-box-shadow: inset 0 2px 2px #ccc;
+    -webkit-box-shadow: inset 0 2px 2px #ccc;
+    box-shadow: inset 0 2px 2px #ccc;
+    border-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px
+}
+.input_text_w {
+    border-color: rgba(0, 0, 0, .3)
+}
+.textarea_text {
+    background-color: #f1f1f1;
+    -moz-box-shadow: inset 0 2px 2px #ccc;
+    -webkit-box-shadow: inset 0 2px 2px #ccc;
+    box-shadow: inset 0 2px 2px #ccc;
+    color: #333;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px
+}
+.textarea_text_w {
+    border-color: rgba(0, 0, 0, .2)
+}
+.input_text::input-placeholder, .input_text:input-placeholder {
+    color: #333;
+    opacity: 1
+}
+.input_text:-webkit-input-placeholder {
+    color: #333;
+    opacity: 1
+}
+.input_text::-webkit-input-placeholder {
+    color: #333;
+    opacity: 1
+}
+.input_text:-moz-placeholder {
+    color: #333;
+    opacity: 1
+}
+.input_text::-moz-placeholder {
+    color: #333;
+    opacity: 1
+}
+.input_text:focus::input-placeholder, .input_text:focus:input-placeholder {
+    color: #333;
+    opacity: 0
+}
+.input_text:focus:-webkit-input-placeholder {
+    color: #333;
+    opacity: 0
+}
+.input_text:focus::-webkit-input-placeholder {
+    color: #333;
+    opacity: 0
+}
+.input_text:focus:-moz-placeholder {
+    color: #333;
+    opacity: 0
+}
+.input_text:focus::-moz-placeholder {
+    color: #333;
+    opacity: 0
+}
+.textarea_text::input-placeholder, .textarea_text:input-placeholder {
+    color: #333;
+    opacity: 1
+}
+.textarea_text:-webkit-input-placeholder {
+    color: #333;
+    opacity: 1
+}
+.textarea_text::-webkit-input-placeholder {
+    color: #333;
+    opacity: 1
+}
+.textarea_text:-moz-placeholder {
+    color: #333;
+    opacity: 1
+}
+.textarea_text::-moz-placeholder {
+    color: #333;
+    opacity: 1
+}
+.textarea_text:focus::input-placeholder, .textarea_text:focus:input-placeholder {
+    color: #333;
+    opacity: 0
+}
+.textarea_text:focus:-webkit-input-placeholder {
+    color: #333;
+    opacity: 0
+}
+.textarea_text:focus::-webkit-input-placeholder {
+    color: #333;
+    opacity: 0
+}
+.textarea_text:focus:-moz-placeholder {
+    color: #333;
+    opacity: 0
+}
+.textarea_text:focus::-moz-placeholder {
+    color: #333;
+    opacity: 0
+}
+.input_text_w::input-placeholder, .input_text_w:input-placeholder {
+    color: #000;
+    opacity: 1
+}
+.input_text_w:-webkit-input-placeholder {
+    color: #000;
+    opacity: 1
+}
+.input_text_w::-webkit-input-placeholder {
+    color: #000;
+    opacity: 1
+}
+.input_text_w:-moz-placeholder {
+    color: #000;
+    opacity: 1
+}
+.input_text_w::-moz-placeholder {
+    color: #000;
+    opacity: 1
+}
+.input_text_w:focus::input-placeholder, .input_text_w:focus:input-placeholder {
+    color: #000;
+    opacity: 0
+}
+.input_text_w:focus:-webkit-input-placeholder {
+    color: #000;
+    opacity: 0
+}
+.input_text_w:focus::-webkit-input-placeholder {
+    color: #000;
+    opacity: 0
+}
+.input_text_w:focus:-moz-placeholder {
+    color: #000;
+    opacity: 0
+}
+.input_text_w:focus::-moz-placeholder {
+    color: #000;
+    opacity: 0
+}
+.input_button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, .6);
+    color: #CCC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px
+}
+.input_button:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, .8);
+    color: #CCC
+}
+.input_button_w {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, .8);
+    color: #fff
+}
+.input_button_w:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, .4);
+    color: #fff
+}
+.contact_message {
+    color: red
+}
+#contact-form .error, #rsvp-form .error {
+    border: 1px solid red
+}
+#contact-error, #rsvp-error {
+    color: #F5D9F4;
+}
+#contact-failed, #contact-loading, #contact-success {
+    background-color: rgba(251, 251, 251, .3);
+    color: #F5D9F4;
+}
+footer {
+    background: none repeat scroll 0 0 #101010;
+    color: #797979
+}
+.footer_icons a {
+    background: none repeat scroll 0 0 #333;
+    color: #101010
+}
+.footer_icons a:hover {
+    background-color: #FFF;
+    color: #333
+}
+footer p {
+    color: #666
+}
