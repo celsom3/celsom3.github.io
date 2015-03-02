@@ -1,234 +1,198 @@
 /* ==========================================================================
-   Custom Design by Celso Mireles 
+   Custom Design by Celso Mireles
    http://celsomireles.com
    ========================================================================== */
-@font-face {
-    font-family: 'tikal_sans_mediumMdIt';
-    src: url('../fonts/TikalSans-MediumItalic-webfont.eot');
-    src: url('../fonts/TikalSans-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TikalSans-MediumItalic-webfont.woff2') format('woff2'),
-         url('../fonts/TikalSans-MediumItalic-webfont.woff') format('woff'),
-         url('../fonts/TikalSans-MediumItalic-webfont.ttf') format('truetype'),
-         url('../fonts/TikalSans-MediumItalic-webfont.svg#tikal_sans_mediumMdIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
+.announcement, .top-sidebar{
+  padding:30px 40px;
 }
 
-@font-face {
-    font-family: 'tikal_sans_mediummedium';
-    src: url('../fonts/TikalSans-Medium-webfont.eot');
-    src: url('../fonts/TikalSans-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TikalSans-Medium-webfont.woff2') format('woff2'),
-         url('../fonts/TikalSans-Medium-webfont.woff') format('woff'),
-         url('../fonts/TikalSans-Medium-webfont.ttf') format('truetype'),
-         url('../fonts/TikalSans-Medium-webfont.svg#tikal_sans_mediummedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+#hidden-form{
+  margin-bottom:20px;
 }
 
+/**************************************/
+/*****    Header Announcement     *****/
+/**************************************/
 
-p{
-	font-family: 'tikal_sans_mediummedium';
-	font-size: 1.1em;
+body{
+  padding-top:0!important;
+  padding-bottom: 0!important;
 }
 
-h1, h2, h3{
-	font-family: 'tikal_sans_mediumMdIt', 'Arial', 'sans-serif';
+/*    Flowy Header Section    */
+
+#flowy-header{
+  width:100%;
+  height:100px;
+  background-color:#D4D4D4;
+  color:#404040;
 }
 
-/******************************************/
-/******  Navigation Section ********/
-/******************************************/
-
-#fixed-scroller{
-	position:fixed;
-	bottom: 15px;
-	right:15px;
-	float:right;
-	color:#B6C2CE;
-
+.logo-place > img{
+  float:left;
+}
+.logo-tagline{
+  padding:20px 20px 0px 40px;
+  float:right;
 }
 
+/* Customize the navbar links to be fill the entire space of the .navbar */
 
-/******************************************/
-/****** Under Construction Section ********/
-/******************************************/
+.navbar .navbar-inner {
+    padding: 0;
+}
 
-#construction{	
-	background-color:rgba(30,283,183,0.5);
-	position: relative;
-    padding-bottom: 102px;   
-
-    height:100%;
+.navbar .nav {
+    margin: 0;
+    display: table;
     width: 100%;
-    background: #161415 url(../img/header-background.jpg) no-repeat center center;
-    background-size: cover !important;
-	-webkit-background-size: cover !important; 
-
-	color:white;
-}
-#construction > .container > .content{
-	text-align: center;
-	
-}
-#construction > .container > .content > h1{
-	font-size:3.3em;
 }
 
-#logo{
-	max-width:300px;
-	margin:50px auto 0px auto;
-}
-
-.logo-centered{
-	margin: 0px auto;
-	height:250px;
-}
-
-.slicknav_menu {
-display: none;
-}
- @media screen and (max-width: 40000em) {
-.js #menu {
-display: none;
-}
-.js .slicknav_menu {
-display: block;
-}
-
-/******************************************/
-/******** MailChimp custom styling ********/
-/******************************************/
-
-#mc_embed_signup{
-	text-align: center!important;
-	clear:left; 
-	font:14px Helvetica,Arial,sans-serif; 
-	width:300px!important;
-	min-width: 200px!important;
-	margin-left:auto!important;
-	margin-right:auto!important;
-
-}
-
-#mc-embedded-subscribe{
-	background-color: #9B1818!important;
-
-	width:200px!important;
-	min-width: 150px!important;
-	margin-left:auto!important;
-	margin-right:auto!important;
-}
-
-#mce-EMAIL{
-	background-color: rgba(250,250,250,0.99);
-
-	border: 2px solid #FFF!important;
-	border-radius: 6px;
-
-
-	width:300px!important;
-	min-width: 200px!important;
-	margin-left:auto!important;
-	margin-right:auto!important;
-	color:black;
-}
-
-.scroll-down{
-	
-	text-align: center;
-	min-width:80px;
-	width:100px;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top: 30px;
-
-}
-
-.scroll-down > a{
-	text-decoration: none;
-}
-
-.scroll-down > a > i{
-	color:white;
-}
-
-/******************************************/
-/************* About Section **************/
-/******************************************/
-
-#about{
-	height:100%;
-	position: relative;
-    padding-bottom: 102px;   
-    padding-top: 47px;
-    min-height: 600px;
-    width: 100%;
-    background: #9B1818;
-    /*background: #BA2222;*/
-    background-size: cover !important;
-	-webkit-background-size: cover !important; 
-	font-family: 'tikal_sans_mediumMdIt', sans-serif;
-
-	color:white;
-}
-
-#about a{
-	color:#fff!important;
-}
-
-.mission, .mission > div, .mission > div > h1{
-	font-family: 'tikal_sans_mediumMdIt', 'Arial';
-	font-size: :1.9em;
-}
-
-.image-01{
-	width:200px;
-	max-width:300px;
-	float:right;
-	margin: 15px;
-}
-
-.image-02{
-	width:180px;
-	max-width:250px;
-	float:left;
-	margin: 15px;
-}
-
-#vision-statement{
-	margin-bottom:35px;
-}
-
-.pillars{
-	
-}
-
-.pillars > h4 {
-	margin-bottom:15px;
-}
-
-/******************************************/
-/************* Dates Section **************/
-/******************************************/
-
-#dates{
-	min-height:400px;
-	padding-top: 47px;
+.navbar .nav > li {
+    display: table-cell;
+    width: 15%;
+    float: none;
+    text-align: center;
 }
 
 
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
 
-#footer{
-	background-color: #232323;
-	color:white;
-	min-height:100px;
-	padding:30px 50px 15px 50px;
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
 }
 
 
+/*    Announcement Section    */
 
+.announcement{
+}
 
+.announcement > .box-content{
+  background: #CFCFCF;
+}
 
+.header-box-text{
+  margin:10px 40px;
+  padding:50px 50px;
+  position:absolute;
+  bottom:30px;
+  left:0px;
+}
+
+.header-image{
+  opacity: 0;
+}
+
+/**************************************/
+/*****    Header Side Bar Area    *****/
+/**************************************/
+
+.top-sidebar > .box-content{
+  height:300px;
+  width:100%;
+  padding: 0;
+}
+
+.header-sb-section{
+  background-color:#CFCFCF;
+  margin:5px 0px 5px 0px;
+  max-height: 90px;
+  min-width:300px;
+}
+.header-sb-text{
+  position:absolute;
+  margin-left:20px;
+}
+
+.header-sb-pic{
+  opacity:0;
+}
+
+.social-media{
+  padding:10px 20px;
+}
+
+.social-media > i{
+  margin: 0px 5px 0px 5px;
+}
+
+.sm-lead{
+  font-size:18px;
+  padding:0px 20px 20px 20px;
+  position:relative;
+  top:-10px;
+}
+
+/**************************************/
+/*****      Main Body Section     *****/
+/**************************************/
+
+.main-body{
+  background-color:#F5F5F5;
+}
+
+.latest-news{
+  height:auto;
+}
+
+.ln-post > img{
+}
+
+.fl-left{
+  float:left;
+}
+
+.fl-right{
+  float: right;
+}
+
+/* Social Media Section */
+.sm-feed{
+
+}
+
+.sm-feed > .box-content{
+  padding:15px;
+}
+.sm-feed > div > div{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+/**************************************/
+/*****       Footer Section       *****/
+/**************************************/
+
+footer{
+  background: #353535;
+  color:#fff;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+/**************************************/
+/*****       Contact Form       *****/
+/**************************************/
+
+#contact-form{
+  padding:30px 20px 20px 20px;
+}
+
+/**************************************/
+/*****       Calendar Placeholder       *****/
+/**************************************/
+
+.calendar-plugin{
+  min-width:300px;
+  width:90%;
+  height:700px;
+  background: #3D3D3D;
+  color:gray;
+  margin:20px;
+  padding:100px;
+}
