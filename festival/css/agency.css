@@ -2,7 +2,7 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- * 
+ *
  * Design tweaked & customized by Celso Mireles (http://celsomireles.com)
  * for Silvia Villareal. Code live at {{SITE_URL}}
  * Still licensed under the Apache License v2.0.
@@ -64,8 +64,8 @@ h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background-color: #f7f7f7;
+.bg-light-color {
+    background-color: #CDE891;
 }
 
 .bg-darkest-gray {
@@ -123,14 +123,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #835AF5;
+    border-color: #FFCB04;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #835AF5;
+    background-color: #FFCB04;
 }
 
 .btn-xl:hover,
@@ -175,12 +175,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #97C93C;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #ED4C9A;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -205,7 +205,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #E03D78;
 }
 
 .navbar-default .nav li a {
@@ -219,19 +219,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #ED4C9A;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #835AF5;
+    background-color: #ED4C9A;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #E03D78;
 }
 
 @media(min-width:768px) {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #97C93C;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -267,15 +267,16 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #ED4C9A!important;
     background-attachment: scroll;
-    background-image: url(../img/header-bg2.jpg);
+    background-image: url(../img/top-main.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height:100%!important;
 }
 
 header .intro-text {
@@ -665,7 +666,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #ED4C9A;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -877,4 +878,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+header{
+    background-color:#97C93C;
+    color:#AEAEAE;
+
 }
