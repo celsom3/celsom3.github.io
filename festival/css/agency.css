@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #97C93C;
+        background-color: #ff9e48;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #ED4C9A!important;
     background-attachment: scroll;
-    background-image: url(../img/top-main.jpg);
+    background-image: url(../img/top-main.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -888,4 +888,8 @@ header{
 
 .more-info{
     color:#fff;
+}
+
+.c-hidden{
+    opacity: 0;
 }
