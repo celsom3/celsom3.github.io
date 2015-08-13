@@ -6,7 +6,7 @@ description: "Blog and website of Celso Mireles, blogging mainly for tech. Opini
 keywords: ""
 favicon: "/img/favicon.png"
 black-favicon: "/img/black-lab-glass.ico"
-google-tracking-id: ""
+google-tracking-id: "UA-39494279-1"
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
