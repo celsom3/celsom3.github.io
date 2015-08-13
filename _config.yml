@@ -1,0 +1,77 @@
+# Site settings
+
+url: "http://celsom3.github.io"
+title: "{ Celso Mireles }"
+description: "Blog and website of Celso Mireles, blogging mainly for tech. Opinions expressed are mine."
+keywords: ""
+favicon: "/img/favicon.png"
+black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: ""
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+# Career variables
+
+events:
+  - image: "/img/career/free.jpg"
+    date: "September 2014 - Today"
+    description: "Freelance Web Developer and Digital Strategist. Looking for the next big opportunity to merge design, technology, and social justice."
+  - image: "/img/career/top.jpg"
+    date: "January 2014 - November 2014"
+    description: "Digital Director at Texas Organizing Project."
+  - image: "/img/career/uwd.jpg"
+    date: "January 2012 - January 2014"
+    description: "Consulting at United We Dream. Led their online presence for 2 of their fastest growing years. Along the way, we stopped deportations, won DACA, and highlighted the pain in our broken immigration system."
+  - image: "/img/career/cds.jpg"
+    date: "September 2009 - December 2011"
+    description: "Started Computer Dude Services. Decided I can hire myself and fixing computers seemed like a cool thing to do. I used a lot of my time here learning web developmend outside of the traditional educational system."
+  - image: "/img/career/farming.jpg"
+    date: "June 2009 - August 2009"
+    description: "Farming in Colorado. This happened right after my college graduation because I am undocumented and no one would hire me for a nice office job."
+  - image: "/img/career/asu.jpg"
+    date: "August 2005 - May 2009"
+    description: "Bachelor of Science @ <a href=\"http://asu.edu\" target=\"_blank\">Arizona State University</a> in Business Management"
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "rss"
+    url: "/feed.xml"
+  - title: "github"
+    url: "https://github.com/celsom3"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/celsomireles"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCsQy_06inplxH7a1zIfbNbg"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
