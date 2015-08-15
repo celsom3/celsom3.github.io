@@ -6,7 +6,7 @@ category: UX
 tags: [ 'design', 'mobile' ]
 ---
 
-![The Hamburger Menu]({{ site.url }}/assets/hamburger.jpg)
+![The Hamburger Menu](http://celsomireles.com/assets/hamburger.jpg)
 
 I must admit, I would internally roll my eyes when friends bash on the now famous _Hamburger Menu_.
 
