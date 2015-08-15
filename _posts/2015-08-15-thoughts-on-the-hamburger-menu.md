@@ -6,8 +6,6 @@ category: UX
 tags: [ 'design', 'mobile' ]
 ---
 
-![The Hamburger Menu](http://celsomireles.com/assets/hamburger.jpg)
-
 I must admit, I would internally roll my eyes when friends bash on the now famous _Hamburger Menu_.
 
 I'd just nod and smile, and think
