@@ -2,9 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>{ Celso Mireles }</title>
-		<description>Blog and website of Celso Mireles, blogging mainly for tech. Opinions expressed are mine.</description>		
-		<link>http://celsom3.github.io</link>
-		<atom:link href="http://celsom3.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<description>Blog and personal website of Celso Mireles, blogging mainly for tech. Opinions expressed are mine.</description>		
+		<link>http://celsomireles.com</link>
+		<atom:link href="http://celsomireles.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Thoughts on the Hamburger Menu</title>
+				        
+				
+					<description>&lt;p&gt;I must admit, I would internally roll my eyes when friends bash on the now famous &lt;em&gt;Hamburger Menu&lt;/em&gt;.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 15 Aug 2015 00:00:00 -0700</pubDate>
+				<link>http://celsomireles.com/ux/2015/08/15/thoughts-on-the-hamburger-menu.html</link>
+				<guid isPermaLink="true">http://celsomireles.com/ux/2015/08/15/thoughts-on-the-hamburger-menu.html</guid>
+			</item>
 		
 			<item>
 				<title>Change of Scenery</title>
@@ -15,8 +28,8 @@
 </description>
 				
 				<pubDate>Thu, 13 Aug 2015 00:00:00 -0700</pubDate>
-				<link>http://celsom3.github.io/tech/2015/08/13/change-of-scenery.html</link>
-				<guid isPermaLink="true">http://celsom3.github.io/tech/2015/08/13/change-of-scenery.html</guid>
+				<link>http://celsomireles.com/tech/2015/08/13/change-of-scenery.html</link>
+				<guid isPermaLink="true">http://celsomireles.com/tech/2015/08/13/change-of-scenery.html</guid>
 			</item>
 		
 	</channel>
