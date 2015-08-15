@@ -40,7 +40,7 @@ reddit-share: True
 events:
   - image: "/img/career/free.jpg"
     date: "September 2014 - Today"
-    description: "Freelance Web Developer and Digital Strategist. Looking for the next big opportunity to merge design, technology, and social justice."
+    description: "Web Developer and Digital Strategy Consultant. Looking for the next big opportunity to merge design, technology, and social justice."
   - image: "/img/career/top.jpg"
     date: "January 2014 - November 2014"
     description: "Digital Director at Texas Organizing Project."
