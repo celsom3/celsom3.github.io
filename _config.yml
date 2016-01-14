@@ -7,7 +7,6 @@ comments: true
 paginate_path: "/blog/page/:num/"
 
 gems:
-  - jekyll-paginate
 	- strip
 	- ext
 	- youtube
