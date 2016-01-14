@@ -4,13 +4,13 @@ title:  "Thoughts on the Hamburger Menu"
 date:   2015-08-15 20:08:35 -0200
 categories: design mobile
 image: '/assets/img/'
-description: 'First steps to use this template'
+description: 'Because something this popular can't be wrong... right?'
 tags:
-- jekyll
-- template
+- design
+- UI
 categories:
-- I love Jekyll
-twitter_text: 'How to install and use this template'
+- Design
+twitter_text: 'Thoughts on the Hamburger Menu'
 ---
 
 I must admit, I would internally roll my eyes when friends bash on the now famous _Hamburger Menu_.

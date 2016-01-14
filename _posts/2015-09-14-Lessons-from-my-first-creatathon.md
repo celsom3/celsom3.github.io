@@ -3,13 +3,13 @@ layout: post
 title:  "Lessons from my first Creatathon"
 date:   2015-09-14 11:58:35 -0200
 image: '/assets/img/'
-description: 'First steps to use this template'
+description: 'My first peak into the local Phoenix tech scene.'
 tags:
-- jekyll
-- template
+- entrepreneur
+- networking
 categories:
-- I love Jekyll
-twitter_text: 'How to install and use this template'
+- Random
+twitter_text: 'Lessons from my first Creatathon'
 ---
 This past weekend I participated in Arizona’s first Creatathon. The idea of the event is to get teams of creatives into a room for 24 hours to deliver pro-bono value to 7 Arizona nonprofits. I served as team lead for the Big Brothers Big Sisters of Central Arizona (BBBSAZ).
 

@@ -8,7 +8,7 @@ tags:
 - jekyll
 - web
 categories:
-- Jekyll is awesome
+- Random
 twitter_text: 'New website look.'
 ---
 
