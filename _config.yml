@@ -8,6 +8,9 @@ paginate_path: "/blog/page/:num/"
 
 gems:
   - jekyll-paginate
+	- strip
+	- ext
+	- youtube
 
 baseurl: null
 domain_name: celsomireles.com
