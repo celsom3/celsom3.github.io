@@ -1,0 +1,92 @@
+//
+// variables
+//
+
+// typography
+$base-font-family: "Source Sans Pro", Helvetica, sans-serif;
+$font-family-base: $base-font-family;
+$font-family-serif: "PT Serif", sans-serif;
+$font-family-monospace: "courier new", monospace;
+$heading-font-family: $font-family-serif;
+$base-font-size: 1.2rem;
+$font-size-base: $base-font-size;
+
+// line height
+$base-line-height: 1.6;
+$heading-line-height: 1.2;
+
+// line height
+$light-font-weight: 300;
+$base-font-weight: 400;
+$bold-font-weight: 600;
+$bolder-font-weight: 700;
+
+// other sizes
+$base-border-radius: .25em;
+$base-spacing: 2em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// colors
+$primary-color: #00ced1;
+$secondary-color: #383838;
+
+$white-color: #fff;
+$silver-color: darken($white-color, 22%);
+$gray-color: darken($white-color, 42%);
+$gray-dark-color: #2d3138;
+$code-color: #ededed;
+$black-color: #000;
+$blue-color: #766dcc;
+
+$success-color: #00E600;
+$error-color: #f04124;
+
+$facebook-color: #3b599f;
+$twitter-color: #28a9e0;
+
+// mix buttons
+$mix-base-font-size: $base-font-size;
+$mix-base-spacing: $base-spacing * 1.4;
+$mix-base-height: 3.2em;
+
+// font colors
+$txt-color: rgba($gray-dark-color, .8);
+$base-font-color: $txt-color;
+$action-color: $primary-color;
+
+// border
+$base-border-color: lighten($silver-color, 10%);
+$base-border: 1px solid $base-border-color;
+
+// background colors
+$base-background-color: $white-color;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// forms
+$form-box-shadow: inset 0 1px 1px rgba(#000, .08);
+$form-box-shadow-focus: 0 0 5px rgba($action-color, .2);
+
+// link
+$link-color: $primary-color;
+$link-hover-color: shade($link-color, 10%);
+
+// animations
+$base-duration: 150ms;
+$base-timing: cubic-bezier(0.21, 1, 0.84, 1.01);
+
+// grid
+$screen-phone: 480px;
+$screen-tablet: 1024px;
+$screen-desktop: 1280px;
+$screen-large-desktop: 1800px;
+
+$header-medium-width: 22em;
+$header-large-width: 32em;
+
+$gutter: 30px;
+$gutter-padding: ($gutter/2);
+$default-feature: min-width;
+
+$medium-screen-up: new-breakpoint($default-feature $screen-tablet 4);
+$large-screen-up: new-breakpoint($default-feature $screen-desktop 8);

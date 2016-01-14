@@ -1,0 +1,85 @@
+
+.pagination {
+  @extend %clearfix;
+  width: 100%;
+  margin: $base-spacing auto $small-spacing;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    margin: $small-spacing 0;
+    padding: 0;
+
+    &.button {
+      display: inline-block;
+    }
+  }
+
+  .prev,
+  .next {
+    @include mix-button($secondary-color, $secondary-color, $base-border-radius, $bold-font-weight, lowercase, true);
+    @include mix-button-size(($base-spacing*1.8), ($base-spacing/1.2), .8rem);
+  }
+
+  li, a, span, a.prev, a.next {
+    display: block;
+    width: 100%;
+  }
+
+  a,
+  .disabled {
+    border: 1px solid darken($silver-color, 10%);
+    border-radius: $base-border-radius;
+  }
+
+  a {
+    .no-touch &:hover {
+      background-color: darken($silver-color, 5%);
+    }
+
+    &:active {
+      @include transform(scale(.9));
+    }
+  }
+
+  .page-number {
+    font-style: italic;
+    color: $silver-color;
+    font-size: .8rem;
+    line-height: 4.5em;
+  }
+
+  .disabled {
+    border-color: rgba($gray-color, .7);
+    color: rgba($gray-color, .4);
+    pointer-events: none;
+
+    &::before, &::after {
+      opacity: .4;
+    }
+  }
+
+  @include media(max-width $screen-phone) {
+    ul {
+      display: block;
+    }
+  }
+
+  @include media($screen-tablet) {
+    li, a, span {
+      width: auto;
+      display: inline-block;
+    }
+  }
+
+  @include media($screen-desktop) {
+    margin: ($base-spacing*2) auto 0;
+  }
+}

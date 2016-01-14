@@ -1,0 +1,19 @@
+---
+layout: home
+title: Home
+slug: home
+---
+
+<section class="hero">
+  {% include svg-pattern.html %}
+  <div class="hero-inner">
+    <div class="filter"></div>
+    <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot author-thumb">
+    <h1 itemscope itemtype="http://schema.org/Person">Hi, my name is <strong itemprop="name">{{ site.name }}</strong> I'm a <em itemprop="jobTitle" class="after">Web Developer</em> and I love coffee!</h1>
+    <nav class="actions">
+      <a href="{{ "/blog" | prepend: site.baseurl }}" class="button-ghost after" role="button">Blog</a>
+      <a href="{{ "/about" | prepend: site.baseurl }}" class="button-ghost after" role="button">About</a>
+      {% include social.html %}
+    </nav>
+  </div>
+</section>

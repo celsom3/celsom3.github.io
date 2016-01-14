@@ -1,0 +1,39 @@
+ul,
+ol {
+  margin: 0 0 $small-spacing 0;
+  padding-left: $small-spacing;
+
+  li {
+    padding-left: $small-spacing;
+  }
+
+  ul,
+  ol {
+    padding-left: $base-spacing;
+    margin: {
+      top: $small-spacing;
+      bottom: $small-spacing;
+    };
+  }
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+dl {
+  margin-bottom: $small-spacing;
+
+  dt {
+    font-weight: bold;
+    margin-top: $small-spacing;
+  }
+
+  dd {
+    margin: 0;
+  }
+}

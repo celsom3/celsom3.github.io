@@ -1,0 +1,38 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+slug: contact
+---
+
+<section class="contact">
+
+  <p>While you can easily reach me at <a href="mailto:celso.mireles@gmail.com"><em>celso.mireles[at]gmail.com</em></a> you can also be super cool and use the form below ;)</p>
+
+  <form action="//formspree.io/celso.mireles@gmail.com" id="contactForm" method="POST">
+    <div class="input-group">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" required>
+    </div>
+
+    <div class="input-group">
+      <label for="email">E-mail</label>
+      <input id="email" type="email" name="_replyto" required>
+    </div>
+
+    <div class="input-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+    </div>
+
+    <div class="alert">&nbsp;</div>
+
+    <div class="input-group">
+      <input type="submit" id="sendForm" class="button-secondary" value="Send">
+      <input type="hidden" name="_subject" value="New message from your website">
+      <input type="text" name="_gotcha" style="display:none">
+      <input type="hidden" name="_next" value="{{ "/contato/" | prepend: site.baseurl | prepend: site.url }}">
+    </div>
+  </form>
+
+</section>

@@ -1,0 +1,102 @@
+/*====================================
+=            Footer Style            =
+====================================*/
+
+.footer {
+  background-color: darken($secondary-color, 2%);
+  text-align: center;
+  padding: $base-spacing $small-spacing;
+
+  animation-duration: 1s;
+  animation-name: fade-in-up;
+
+  p {
+    font-size: 1rem;
+    color: darken($white-color, 18%);
+
+    small {
+      color: darken($white-color, 25%);
+    }
+
+    @include media($screen-desktop) {
+      padding-left: 6em;
+      padding-right: 6em;
+    }
+  }
+
+  .social {
+    margin-top: 0;
+  }
+
+  span {
+    display: block;
+    font-size: .7em;
+    margin-top: 1em;
+    color: darken($white-color, 20%);
+  }
+
+  a {
+    color: darken($white-color, 5%);
+  }
+
+  @include media($screen-desktop) {
+    background-color: transparent;
+    width: $header-medium-width;
+    position: fixed;
+    padding: 0 $small-spacing $small-spacing;
+    left: 0;
+    bottom: 0;
+
+    .social,
+    span {
+      margin: 0;
+    }
+  }
+
+  @include media($screen-large-desktop) {
+    width: $header-large-width;
+  }
+}
+
+.social {
+  padding: 0;
+  margin: $base-spacing 0 $small-spacing;
+
+  animation-duration: .5s;
+  animation-name: fade-in-up;
+
+
+  li {
+    display: inline-block;
+    padding: 0 $small-spacing;
+  }
+
+  a {
+    text-decoration: none;
+    color: darken($white-color, 20%);
+    @include transition(opacity .2s linear, color .2s linear);
+    @include opacity(.7);
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 1.8rem;
+
+    &:hover,
+    &:focus,
+    &:active {
+      @include opacity(.9);
+      color: $primary-color;
+    }
+  }
+}
+
+html.no-js {
+  .scroll-up {
+    bottom: 10px !important;
+  }
+
+  .navbar .search {
+    display: none;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,18 @@
+---
+layout: default
+slug: single
+post_class: post-template
+itemtype: BlogPosting
+---
+
+<article role="article" class="post" itemprop="articleBody">
+
+  {% include post/post-content.html %}
+
+  {% include post/post-footer.html %}
+
+  {% if site.comments and page.comments %}
+    {% include post/post-comments.html %}
+  {% endif %}
+
+</article>

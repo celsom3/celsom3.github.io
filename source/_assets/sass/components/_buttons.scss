@@ -1,0 +1,29 @@
+
+.btn,
+.button {
+  @include mix-button($mix-primary-color, $white-color, $base-border-radius, $bold-font-weight, uppercase);
+}
+
+.button-secondary {
+  @include mix-button($secondary-color, $white-color, $base-border-radius, $bold-font-weight, uppercase);
+}
+
+.button-ghost {
+  @include mix-button($primary-color, $white-color, $base-border-radius, $bold-font-weight, uppercase, true);
+
+  &.after {
+    &:after {
+      height: 3px;
+    }
+  }
+}
+
+@include media(max-width $screen-phone) {
+  .btn,
+  .button,
+  .button-secondary,
+  .button-ghost {
+    width: 100%;
+    clear: both;
+  }
+}

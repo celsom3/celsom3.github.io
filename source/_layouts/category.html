@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="posts container">
+
+  <header class="page-header">
+    <h1>Categoria: {{ page.title }}</h1>
+  </header>
+
+  {% if site.categories[page.slug] %}
+
+    {% for post in site.categories[page.slug] %}
+      {% include article.html %}
+    {% endfor %}
+
+  {% else %}
+
+    <div class="post txt-center" role="alert">
+      <p>Não há artigos para a categoria: <strong>{{ page.title }}</strong></p>
+    </div>
+
+  {% endif %}
+
+</section>

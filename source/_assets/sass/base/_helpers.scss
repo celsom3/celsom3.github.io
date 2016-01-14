@@ -1,0 +1,115 @@
+
+.clearfix { @extend %clearfix; }
+.dot { border-radius: 50%; }
+.txt-white { color: $white-color !important; }
+.txt-center { text-align: center !important; }
+.txt-left { text-align: left !important; }
+.txt-right { text-align: right !important; }
+.txt-justify { text-align: justify !important; }
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+img.pull-left { margin-right: 20px; }
+img.pull-right { margin-left: 20px; }
+
+.card {
+  background-color: $white-color;
+  padding: $base-spacing;
+  @include box-shadow(0 0 0 0, 0 6px 12px rgba(34,34,34, .1));
+}
+
+.alert {
+  padding: $small-spacing;
+  margin-bottom: $small-spacing;
+  border-radius: $base-border-radius;
+  text-align: center;
+
+  p {
+    text-shadow: 0px 1px 1px rgba($black-color, .2);
+    margin: 0;
+  }
+}
+
+.alert-success {
+  background-color: $success-color;
+  border: 1px solid darken($success-color, 5%);
+  color: $white-color;
+}
+
+.alert-error {
+  background-color: $error-color;
+  border: 1px solid darken($error-color, 5%);
+  color: $white-color;
+}
+
+.contact .alert {
+  display: none;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 15px;
+  bottom: -80px;
+  @include font-size(36px);
+  @include transition(all .2s linear);
+  font-size: 2em !important;
+
+  &, &:hover, &:focus {
+    color: $txt-color;
+  }
+
+  &:hover {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  &,
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border: 0;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  animation-duration: 2s;
+}
+
+.tada {
+  animation-name: tada;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.video-responsive {
+  margin: $small-spacing 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+}

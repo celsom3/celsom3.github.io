@@ -1,0 +1,21 @@
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  <ul role="menu">
+    {% assign url = site.baseurl | append: "/blog/" %}
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page > 1 %}
+        {% assign prev = 'page/' | append: paginator.previous_page %}
+      {% endif %}
+      <li role="menuitem"><a role="button" class="prev" href="{{ url | append: prev }}" title="Previous">&laquo; Previous</a></li>
+    {% else %}
+      <li role="menuitem"><span role="button" class="prev disabled">&laquo; Previous</span></li>
+    {% endif %}
+    <li role="menuitem"><span class="page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span></li>
+    {% if paginator.next_page %}
+      <li role="menuitem"><a role="button" class="next" href="{{ url | append: 'page/' | append: paginator.next_page }}" title="Next">Next &raquo;</a></li>
+    {% else %}
+      <li role="menuitem"><span role="button" class="next disabled">Next &raquo;</span></li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}
