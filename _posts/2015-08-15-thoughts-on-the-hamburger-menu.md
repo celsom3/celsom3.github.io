@@ -3,7 +3,7 @@ layout: post
 title:  "Thoughts on the Hamburger Menu"
 date:   2015-08-15 20:08:35 -0200
 image: '/assets/img/'
-description: 'Because something this popular can't be wrong... right?'
+description: 'Because something this popular cannot be wrong... right?'
 tags:
 - design
 - UI
