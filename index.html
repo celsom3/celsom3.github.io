@@ -1,19 +1,21 @@
 ---
-layout: home
-title: Home
-slug: home
+layout: blank
+body_class: home-intro
 ---
 
-<section class="hero">
-  {% include svg-pattern.html %}
-  <div class="hero-inner">
-    <div class="filter"></div>
-    <img src="{{ "/assets/images/author.jpg" | prepend: site.baseurl }}" alt="author thumb" class="dot author-thumb">
-    <h1 itemscope itemtype="http://schema.org/Person">Hi, my name is <strong itemprop="name">{{ site.name }}</strong> I'm a <em itemprop="jobTitle" class="after">Web Developer</em> and I love coffee!</h1>
-    <nav class="actions">
-      <a href="{{ "/blog" | prepend: site.baseurl }}" class="button-ghost after" role="button">Blog</a>
-      <a href="{{ "/about" | prepend: site.baseurl }}" class="button-ghost after" role="button">About</a>
-      {% include social.html %}
+<section class="intro">
+  {% include navbar.html %}
+
+  <div class="intro-in">
+
+    <h1 class="intro-title"><strong>Celso</strong> Mireles</h1>
+    <h2 class="intro-subtitle">Web Developer, Musician, Thinker</h2>
+
+    <nav class="intro-actions">
+      <a href="http://digitalstrategy.tips" class="button button-ghost" role="button" target="_blank">Portfolio</a>
+			<a href="{{ '/blog' | prepend: site.baseurl }}" class="button button-ghost" role="button">Blog</a>
     </nav>
+
   </div>
+
 </section>

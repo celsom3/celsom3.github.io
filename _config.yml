@@ -1,64 +1,46 @@
-permalink   : /:title/
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: /
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 12
-comments: true
-paginate_path: "/blog/page/:num/"
+# SEO settings
+title: Celso Mireles
+description: "A place for thoughts and stuff."
+keywords: "Web Development, Musician, blog, PHP, Javascript, Graphic Design, python, Jekyll"
 
-
-
-baseurl: null
-domain_name: celsomireles.com
-google_analytics: UA-39494279-1
-
-source:      ''
-destination: _site
-
-itemtype: WebPage
-cover: /assets/images/facebook.png
-
-# site title, description, keywords
-name: Celso Mireles
-title: Celso Mirele • Digital Strategist
-description: "Desenvolvedor Front-end, Design Responsive, HTML5, CSS3 e JavaScript"
-keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html, html5, css, css3, js, javascript, jquery, seo, otimizacao, performance"
+# Site settings
 url: http://celsomireles.com
-repo: https://github.com/celsom3/celsom3.github.io
-disqus_shortname: "celsomireles"
-rss_path: source/
+baseurl: ""
+# baseurl: ""
+
+# Author settings
 author:
   name      : Celso Mireles
-  image     : /assets/images/author.jpg
+  job       : Digital Strategy Consultant
+  bio       : "UndocuTechie: Entrepreneur, Web Developer, Digital Strategist."
+  thumb     : /images/author.jpg
   email     : celso.mireles@gmail.com
   url       : http://celsomireles.com
-  # facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/celsom3
-  # instagram : http://instagram.com/celsom3
   github    : http://github.com/celsom3
+  twitter   : http://twitter.com/celsom3
+  facebook  : http://facebook.com/celso.mireles
   linkedin  : https://www.linkedin.com/in/celsomireles
-  bio       : "Web Developer, Musician and citizen of the world."
 
+google_analytics: UA-39494279-1
+repo: https://github.com/celsom3/celsom3.github.io
 
-# Plugin: jekyll-assets
-assets:
-  dirname: /assets
-  baseurl: /assets/
-  sources:
-    - assets/images
-    - assets/fonts
-    - assets/css
-    - assets/js
-  cache: true
-  gzip: [ text/css, application/javascript ]
-
-# Compress HTML
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  ignore:
-    envs: all
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+# comments
+disqus_shortname: "celsomireles"
