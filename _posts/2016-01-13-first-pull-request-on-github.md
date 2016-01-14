@@ -3,7 +3,7 @@ layout: post
 title:  "First Pull Request on Github"
 date:   2016-01-13 21:32:35 -0200
 image: '/assets/img/'
-description: 'Let's make a big deal out of this.'
+description: 'Let\'s make a big deal out of this.'
 tags:
 - git
 - web development
