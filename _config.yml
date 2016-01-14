@@ -13,7 +13,7 @@ baseurl: null
 domain_name: celsomireles.com
 google_analytics: UA-39494279-1
 
-source:      source
+source:      ''
 destination: _site
 
 itemtype: WebPage
