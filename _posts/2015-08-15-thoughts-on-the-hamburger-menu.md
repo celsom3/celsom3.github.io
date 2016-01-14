@@ -2,7 +2,6 @@
 layout: post
 title:  "Thoughts on the Hamburger Menu"
 date:   2015-08-15 20:08:35 -0200
-categories: design mobile
 image: '/assets/img/'
 description: 'Because something this popular can't be wrong... right?'
 tags:
