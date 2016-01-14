@@ -1,13 +1,13 @@
 {
-  "name": "nandomoreira.me",
+  "name": "celsomireles.com",
   "version": "3.1.0",
-  "description": "My personal website and blog >> http://nandomoreira.me/",
+  "description": "My personal website and blog >> http://celsomireles.com/",
   "repository": {
     "type": "git",
-    "url": "git@github.com:nandomoreirame/nandomoreirame.github.io.git"
+    "url": "git@github.com:celsom3/celsom3.github.io.git"
   },
   "keywords": [],
-  "author": "Fernando Moreira",
+  "author": "Celso Mireles",
   "license": "MIT",
   "private": true,
   "engines": {

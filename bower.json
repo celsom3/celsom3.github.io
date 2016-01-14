@@ -1,11 +1,11 @@
 {
-  "name": "nandomoreira.me",
+  "name": "celsom3",
   "version": "3.1.0",
-  "homepage": "https://github.com/nandomoreirame/nandomoreirame.github.io",
+  "homepage": "https://github.com/celsom3/celsom3.github.io",
   "private": true,
   "license": "MIT",
   "authors": [
-    "Fernando Moreira <nandomoreira.me@gmail.com>"
+    "Celso Mireles <celso.mireles@gmail.com>"
   ],
   "devDependencies": {
     "classie": "~1.0.1",
