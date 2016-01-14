@@ -1,77 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: Celso Mireles
+description: "A place for thoughts and stuff."
+keywords: "Web Development, Musician, blog, PHP, Javascript, Graphic Design, python, Jekyll"
+
 # Site settings
+url: http://celsomireles.com
+baseurl: ""
+# baseurl: ""
 
-url: "http://celsomireles.com"
-title: "{ Celso Mireles }"
-description: "Blog and personal website of Celso Mireles, blogging mainly for tech. Opinions expressed are mine."
-keywords: ""
-favicon: "/img/favicon.png"
-black-favicon: "/img/black-lab-glass.ico"
-google-tracking-id: "UA-39494279-1"
+# Author settings
+author:
+  name      : Celso Mireles
+  job       : Digital Strategy Consultant
+  bio       : "UndocuTechie: Entrepreneur, Web Developer, Digital Strategist."
+  thumb     : /images/author.jpg
+  email     : celso.mireles@gmail.com
+  url       : http://celsomireles.com
+  github    : http://github.com/celsom3
+  twitter   : http://twitter.com/celsom3
+  facebook  : http://facebook.com/celso.mireles
+  linkedin  : https://www.linkedin.com/in/celsomireles
 
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
+google_analytics: UA-39494279-1
+repo: https://github.com/celsom3/celsom3.github.io
 
-pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Contact: 'contact'
-
-background-img: "/img/intro-bg.jpg"
-
-# About variables
-
-me-img: "/img/me.jpg"
-
-# Blog variables
-paginate: 15
-
-paginate_path: "blog/page:num"
-
-post-preview-words: 128
-
-fb-share: True
-twitter-share: True
-reddit-share: True
-
-# Career variables
-
-events:
-  - image: "/img/career/free.jpg"
-    date: "September 2014 - Today"
-    description: "Web Developer and Digital Strategy Consultant. Looking for the next big opportunity to merge design, technology, and social justice."
-  - image: "/img/career/top.jpg"
-    date: "January 2014 - November 2014"
-    description: "Digital Director at Texas Organizing Project."
-  - image: "/img/career/uwd.jpg"
-    date: "January 2012 - January 2014"
-    description: "Consulting at United We Dream. Led their online presence for 2 of their fastest growing years. Along the way, we stopped deportations, won DACA, and highlighted the pain in our broken immigration system."
-  - image: "/img/career/cds.jpg"
-    date: "September 2009 - December 2011"
-    description: "Started Computer Dude Services. Decided I can hire myself and fixing computers seemed like a cool thing to do. I used a lot of my time here learning web developmend outside of the traditional educational system."
-  - image: "/img/career/farming.jpg"
-    date: "June 2009 - August 2009"
-    description: "Farming in Colorado. This happened right after my college graduation because I am undocumented and no one would hire me for a nice office job."
-  - image: "/img/career/asu.jpg"
-    date: "August 2005 - May 2009"
-    description: "Bachelor of Science @ <a href=\"http://asu.edu\" target=\"_blank\">Arizona State University</a> in Business Management"
-
-# First image of the Career timeline
-career-img: "/img/career/default.jpg"
-
-# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
-social:
-  - title: "rss"
-    url: "/feed.xml"
-  - title: "github"
-    url: "https://github.com/celsom3"
-  - title: "linkedin"
-    url: "https://www.linkedin.com/in/celsomireles"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCsQy_06inplxH7a1zIfbNbg"
-
-404-img: "/img/labtocat.png"
-
-# Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+# comments
+disqus_shortname: "celsomireles"
