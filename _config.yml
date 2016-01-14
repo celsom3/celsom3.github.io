@@ -6,10 +6,7 @@ paginate: 12
 comments: true
 paginate_path: "/blog/page/:num/"
 
-gems:
-	- strip
-	- ext
-	- youtube
+
 
 baseurl: null
 domain_name: celsomireles.com
