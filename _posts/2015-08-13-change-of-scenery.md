@@ -2,7 +2,7 @@
 layout: post
 title:  "Change of Scenery"
 date:   2015-08-13 20:08:35 -0200
-image: '/assets/img/'
+image: '/assets/img/blog/house.jpg'
 description: 'New website look.'
 tags:
 - jekyll
