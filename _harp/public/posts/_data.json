@@ -1,4 +1,18 @@
 {
+	"from-jekyll-to-harp-js": {
+    "title": "Theme Conversion from Jekyll to Harp.js",
+		"date": "2016-01-15 12:02:35 -0200",
+		"day": "15",
+		"month": "January",
+		"year": "2016",
+		"description": "Why I did it and you can have your own static site with Harp.js",
+		"tags": ["web development", "jekyll", "harpjs"],
+		"categories": "Development",
+		"twitter_text": "Nice read on converting a Jekyll theme to Harpjs.",
+		"excerpt": "It all started with the simple goal of wanting to write a quick blog post. But that led me to remember how dissatisfied I was with the way my website looked. It was, at the time, a Jekyll site hosted on Github Pages.",
+		"og_img": "http://s7.postimg.org/wujmtb4u3/2015_04_21_21_16_46.jpg",
+		"img": "http://s7.postimg.org/wujmtb4u3/2015_04_21_21_16_46.jpg"
+  },
 	"2016-01-13-first-pull-request-on-github": {
     "title": "My first Pull Request",
 		"date": "2016-01-13 21:32:35 -0200",

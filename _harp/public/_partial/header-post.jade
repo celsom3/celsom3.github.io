@@ -2,7 +2,7 @@ header.header-post(role='banner')
   .header-post-bg
     .content
       if date
-        time.date(itemprop='datePublished', datetime='#{date}') #{date}
+        time.date(itemprop='datePublished', datetime='#{date}') #{month} #{day}, #{year}
       h1.post-title(itemprop='name') #{title}
       p.subtitle(itemprop='description') #{ description }
     a.down(data-scroll='', href='#scroll')
