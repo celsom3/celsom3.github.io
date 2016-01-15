@@ -9,7 +9,9 @@
 		"tags": ["git", "web development", "wordpress"],
 		"categories": "Development",
 		"twitter_text": "First Pull Request on Github",
-		"excerpt": "Today was pretty epic for me. Not gonna lie. At the risk of sounding like a total noob, I will announce that today was the first time I contributed to an open source project. Let me start from the beginning"
+		"excerpt": "Today was pretty epic for me. Not gonna lie. At the risk of sounding like a total noob, I will announce that today was the first time I contributed to an open source project. Let me start from the beginning",
+		"og_img": "http://s23.postimg.org/pqmchzz17/2016_01_14_21_32_59.jpg",
+		"img": "http://s23.postimg.org/pqmchzz17/2016_01_14_21_32_59.jpg"
   },
 	"2015-09-14-Lessons-from-my-first-creatathon": {
     "title": "Lessons from my first CreataThon",
