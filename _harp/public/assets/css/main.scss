@@ -550,6 +550,7 @@ html, body {
 .header-site, .header-post {
   background: $brand-color;
   height: 100%;
+	background-image: url("../../assets/img/old-mathematics.png");
 }
 .header-post-bg{
 	width: 100%;
@@ -557,10 +558,11 @@ html, body {
 	background-repeat: none;
 	background-position: center;
 	background-size: cover;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.1));
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.1));
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.1));
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0,0.1));
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.2));
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.2));
+	background: -moz-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.2));
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.2));
+
 }
 .header-site .content, .header-post .content {
 	width: 95%;

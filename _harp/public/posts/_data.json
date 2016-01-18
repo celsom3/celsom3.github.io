@@ -1,4 +1,18 @@
 {
+	"big-city-blues": {
+    "title": "Big City Blues",
+		"date": "2016-01-17 12:02:35 -0200",
+		"day": "17",
+		"month": "January",
+		"year": "2016",
+		"description": "The need for an exit plan from the emptiness of the metropolis.",
+		"tags": ["living", "trips", "sustainability"],
+		"categories": "Living",
+		"twitter_text": "The need for an exit plan from the emptiness of the metropolis.",
+		"excerpt": "So we went up to Flagstaff for some time in the snow this weekend. The nephew had wanted to see some snow for a while now and I was more than happy to test out my cool little pocket stove.",
+		"og_img": "http://s20.postimg.org/wmrktbpbx/2016_01_16_13_18_36.jpg",
+		"img": "http://s20.postimg.org/wmrktbpbx/2016_01_16_13_18_36.jpg"
+  },
 	"from-jekyll-to-harp-js": {
     "title": "Theme Conversion from Jekyll to Harp.js",
 		"date": "2016-01-15 12:02:35 -0200",
