@@ -51,7 +51,7 @@ gulp.task('serve', function () {
         scroll: true
       },
       logLevel: "info",
-      notify: true
+      notify: false
     });
 	});
 });
