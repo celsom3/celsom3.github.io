@@ -2,6 +2,8 @@ body{
 	font-family: 'Helvetica', sans-serif;
 }
 
+// Navigation
+
 .main-nav{
 	@include linearGradient(#282727, #333333);
 	color: white;
@@ -17,4 +19,12 @@ body{
 			}
 		}
 	}
+}
+
+// Header
+
+.jumbotron{
+	@include linearGradient(#f0f0f0, #d0d0d0);
+	width: 100%;
+	padding: 100px;
 }
