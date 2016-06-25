@@ -10,16 +10,20 @@ var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 var harp = require('harp');
 
-var plumber = require('gulp-plumber');
+//var plumber = require('gulp-plumber');
 // var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 // var cssnano = require('gulp-cssnano');
-var rename = require('gulp-rename');
+//var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 // var uglify = require('gulp-uglify');
-var jade = require('gulp-jade');
+//var jade = require('gulp-jade');
 var del = require('del');
-var livereload = require('gulp-livereload');
+var prettify = require('gulp-prettify');
+//var livereload = require('gulp-livereload');
+var plumber = require('gulp-plumber');
+var rimraf = require('gulp-rimraf');
+var clean = require('gulp-clean');
 
 var paths = {
   templates: '_harp/public/**/*.{jade,md}',
@@ -71,16 +75,33 @@ gulp.task('serve', function () {
 
 // Compile and prepare for GitHub Pages
 gulp.task('compile', function() {
-	harp.compile(paths.harp , paths.harpCompiled, function() {
+	return harp.compile(paths.harp , paths.harpCompiled, function() {
 		// After compiling with harp, move to root directory
 		gulp.src('_harp/www/**/*')
+			.pipe(plumber())
+			.pipe(prettify())
 			.pipe(gulp.dest('./'));
 		// Now delete all files in /www
-		del('_harp/www/**/*');
+		//del('_harp/www/**/*');
+		del.sync(['_harp/www']);
+
 	});
+
+	//del.sync(['_harp/www']);
+
+
+
+});
+
+gulp.task('clean', ['compile'], function() {
+	//return del.sync(['_harp/www/**/*']);
+
+
+	return gulp.src('_harp/www', {read: false})
+	 	.pipe(clean('*', {force:true}));
 });
 
 /**
  * Default task
  */
-gulp.task('default', ['watch']);
+gulp.task('default', ['watch']), function() {};
