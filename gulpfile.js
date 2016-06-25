@@ -36,7 +36,7 @@ var paths = {
 
 gulp.task('watch', ['serve'], function() {
 
-  gulp.watch('_harp/public/**/*', function() {
+  gulp.watch('_harp/**/*', function() {
 		reload(paths.harp, {stream: true});
 		console.log("Changes detected");
 	});
@@ -68,12 +68,7 @@ gulp.task('serve', function () {
 
 
 	});
-	console.log("Just started harp...");
 
-	gulp.watch('_harp/public/**', function() {
-		// browserSync.reload();
-		console.log("Changes detected");
-	});
 });
 
 /**
