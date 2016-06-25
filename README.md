@@ -22,6 +22,12 @@ Now move to that directory:
 cd celsom3.github.io
 ```
 
+Now install all the NPM dependencies:
+
+```
+sudo npm install
+```
+
 ## Developing
 
 To start hacking/developing, simply run:
