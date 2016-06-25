@@ -9,4 +9,13 @@ body{
 		color: white;
 		text-decoration: none;
 	}
+	.nav-menu{
+		li{
+			border: 2px solid white;
+			display: inline;
+			a{
+				color: white;
+			}
+		}
+	}
 }
