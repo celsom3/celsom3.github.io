@@ -1,11 +1,11 @@
 doctype html
 head
 	!= partial("_partial/head")
-	body
+body
 
 	!= partial('_partial/header-default')
 
-		!= yield
+	!= yield
 
-		!= partial("_partial/footer")
-		!= partial("_partial/analytics")
+	!= partial("_partial/footer")
+	!= partial("_partial/analytics")
