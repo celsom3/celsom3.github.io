@@ -20,7 +20,7 @@ body{
 [class^="col-"]:last-child {
     margin: 0;
 }
-
+\
 .col-1 { width: 4.8076923077% }
 .col-2 { width: 13.4615384615% }
 .col-3 { width: 22.1153846154% }
@@ -33,3 +33,21 @@ body{
 .col-10 { width: 82.6923076923% }
 .col-11 { width: 91.3461538462% }
 .col-12 { width: 100%; margin: 0 }
+
+/* Mobile styles go first, without media queries. */
+
+@media only screen and (min-width: 321px) {
+    /* Larger mobile styles (wider than 320 pixels) */
+}
+
+@media only screen and (min-width: 600px) {
+    /* Tablet styles (wider than 600 pixels) */
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Large laptop styles (wider than 1024 pixels) */
+}
+
+@media only screen and (min-width: 1140px) {
+    /* Desktop styles (wider than 1140 pixels) */
+}
