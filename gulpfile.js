@@ -28,7 +28,8 @@ var paths = {
   images: '_harp/public/assets/img/**/*',
   js: '_harp/public/assets/js/**/*.js',
 	harp: '_harp/',
-	harpPublic: '_harp/public/'
+	harpPublic: '_harp/public/',
+	harpCompiled: 'www/'
 };
 
 
@@ -65,10 +66,18 @@ gulp.task('serve', function () {
       logLevel: "info",
       notify: true
     });
-
-
 	});
+});
 
+// Compile and prepare for GitHub Pages
+gulp.task('compile', function() {
+	harp.compile(paths.harp , paths.harpCompiled, function() {
+		// After compiling with harp, move to root directory
+		gulp.src('_harp/www/**/*')
+			.pipe(gulp.dest('./'));
+		// Now delete all files in /www
+		del('_harp/www/**/*');
+	});
 });
 
 /**
