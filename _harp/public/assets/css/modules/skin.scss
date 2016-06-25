@@ -3,7 +3,7 @@ body{
 }
 
 .main-nav{
-	background-color: black;
+	@include linearGradient(#282727, #333333);
 	color: white;
 	.brand{
 		color: white;
@@ -12,7 +12,6 @@ body{
 	.nav-menu{
 		li{
 			border: 2px solid white;
-			display: inline;
 			a{
 				color: white;
 			}
