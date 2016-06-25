@@ -1,10 +1,14 @@
 .main-nav{
 	width: 100%;
-	float:left;
-	padding: 10px;
+	// min-height: 100px;
+	// height: 100%;
+	display:block;
+	overflow: auto;
+	box-sizing: padding-box;
+	padding: 20px;
+
 	.brand{
 		float: left;
-
 	}
 	#nav-title{
 		display: inline-block;;
@@ -27,3 +31,17 @@
 	width: 100%;
 	height: auto;
 }
+
+
+// Typography Helper Classes
+
+.text-center{
+	text-align: center;
+}
+
+
+// Padding Classes
+
+.pad-10{ padding: 10px; }
+.pad-20{ padding: 20px; }
+.pad-30{ padding: 30px; }
