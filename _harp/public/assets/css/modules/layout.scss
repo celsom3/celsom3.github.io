@@ -14,14 +14,15 @@
 	width: 100%;
 	display:block;
 	overflow: auto;
+	margin-bottom: 20px;
 
 	// Nav brand
 	.brand{
 		float: left;
+		margin-left: 10px;
 		img{
 			height: 80px;
 			width:80px;
-			background: gray;
 		}
 	}
 	// Nav Title

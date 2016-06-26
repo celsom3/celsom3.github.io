@@ -1,6 +1,43 @@
+// Set the brand colors
+
+$brand-1: #0677e0;
+$brand-2: #e0b706;
+
+// First to set the fonts for most HTML elements
+
 body{
 	font-family: 'Helvetica', sans-serif;
 }
+
+h1{
+	font-size: 2.5em;
+	font-weight: 600;
+}
+h2{
+	font-size: 2.2em;
+	font-weight: 600;
+}
+h3{
+	font-size: 1.9em;
+	font-weight: 400;
+}
+h4{
+	font-size: 1.4em;
+	font-weight: 400;
+}
+h5{
+	font-size: 1.3em;
+	font-weight: 200;
+}
+h6{
+	font-size: 1.1em;
+	font-weight: 200;
+}
+
+a{
+	color: $brand-2;
+}
+
 
 // Navigation
 
@@ -27,7 +64,8 @@ body{
 }
 
 .dark-gradient{
-	@include linearGradient(#282727, #404040);
+	@include linearGradient(darken($brand-1, 33%), #181818);
+
 }
 
 // Header
