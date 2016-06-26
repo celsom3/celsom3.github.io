@@ -5,17 +5,22 @@ body{
 // Navigation
 
 .main-nav{
-	//background-color: black;
 	color: white;
 	.brand{
 		color: white;
 		text-decoration: none;
 	}
+
+	#nav-title{
+		font-size: 2em;
+	}
 	.nav-menu{
 		li{
-			border: 2px solid white;
+			background-color: rgba(250,250,250,.1);
 			a{
 				color: white;
+				text-decoration: none;
+				font-size: 1.2em;
 			}
 		}
 	}
