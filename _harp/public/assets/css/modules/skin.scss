@@ -82,5 +82,6 @@ a{
 // Footer
 
 footer{
-	background-color: black;
+	@include linearGradient(#181818, darken($brand-1, 33%));
+	color: white;
 }

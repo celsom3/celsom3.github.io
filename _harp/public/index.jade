@@ -1,21 +1,43 @@
-header.row(role='banner')
-	div.col-12
-		h1 #{ user_title }
-	div.col-6
-		p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi laborum ut distinctio, deserunt deleniti libero vitae rerum temporibus esse. Nostrum incidunt vero veniam minima, recusandae eaque voluptatum mollitia enim repudiandae.
-	div.col-6
-		img(src="http://placehold.it/200x300", alt="Image of Me")
+header(role='banner')
+	.row
+		div.col-12
+			h1 #{ user_title }
+	.row
+		div.col-6
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi laborum ut distinctio, deserunt deleniti libero vitae rerum temporibus esse. Nostrum incidunt vero veniam minima, recusandae eaque voluptatum mollitia enim repudiandae.
+		div.col-6
+			img(src="http://placehold.it/200x300", alt="Image of Me")
 
-section#portfolio.row
-	.col-4
-		.portfolio-item
-			h3 Item 1
-			a(href="#") See More
-	.col-4
-		.portfolio-item
-			h3 Item 1
-			a(href="#") See More
-	.col-4
-		.portfolio-item
-			h3 Item 1
-			a(href="#") See More
+section#portfolio
+	.row
+		.col-4
+			.portfolio-item.text-center
+				h3.text-center Item 1
+				img(src="http://placehold.it/300x400" alt="Portfolio Item")
+				a(href="#") See More
+		.col-4
+			.portfolio-item
+				h3.text-center Item 2
+				img(src="http://placehold.it/300x400" alt="Portfolio Item")
+				a(href="#") See More
+		.col-4
+			.portfolio-item
+				h3.text-center Item 3
+				img(src="http://placehold.it/300x400" alt="Portfolio Item")
+				a(href="#") See More
+	.row
+		.col-4
+			.portfolio-item.text-center
+				h3.text-center Item 4
+				img(src="http://placehold.it/300x400" alt="Portfolio Item")
+				a(href="#") See More
+		.col-4
+			.portfolio-item
+				h3.text-center Item 5
+				img(src="http://placehold.it/300x400" alt="Portfolio Item")
+				a(href="#") See More
+		.col-4
+			.portfolio-item
+				h3.text-center Item 6
+				img(src="http://placehold.it/300x400" alt="Portfolio Item")
+				a(href="#") See More
