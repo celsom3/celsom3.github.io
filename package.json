@@ -38,6 +38,7 @@
     "harp": "^0.20.3"
   },
   "dependencies": {
+    "jquery": "^3.0.0",
     "react": "^15.1.0"
   }
 }

@@ -71,6 +71,14 @@ gulp.task('clean', function() {
 	return del.sync(['_harp/www']);
 });
 
+// Move dependencies into dev directory
+
+gulp.task('depsetup', function(){
+	// Move jQuery into _harp
+	gulp.src('node_modules/jquery/dist/jquery.min.js')
+		.pipe(gulp.dest('_harp/public/assets/js/'));
+});
+
 /**
  * Default task
  */
