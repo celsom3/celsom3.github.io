@@ -34,6 +34,7 @@ header{
 	}
 
 	nav{
+		display: none;
     z-index: 1000;
     width: 100%;
     font-size: 24px;
@@ -94,3 +95,72 @@ footer{
 .pad-10{ padding: 10px; }
 .pad-20{ padding: 20px; }
 .pad-30{ padding: 30px; }
+
+// Media Queries
+
+@media only screen and (min-width: 400px) {
+    /* Larger mobile styles (wider than 320 pixels) */
+
+}
+
+@media only screen and (min-width: 550px) {
+    /* Tablet styles (wider than 600 pixels) */
+		// Main Nav
+		header{
+			width: 100%;
+			display:block;
+			overflow: auto;
+			margin-bottom: 20px;
+			height: 100%;
+
+			.brand{
+				float: left;
+				margin-left: 10px;
+				img{
+					height: 80px;
+					width:80px;
+				}
+			}
+
+			// Nav Title
+			#nav-title{
+				display: inline-block;;
+				margin: 25px 10px;
+			}
+
+			nav{
+				display: block;
+		    z-index: 1000;
+		    //width: 100%;
+		    font-size: 1.5em;
+
+		    text-align: center;
+				li{
+					height: 1.5em;
+			    list-style: none;
+			    display: inline-block;
+					a{
+						text-align: center;
+						margin: 10px;
+						padding: 20px;
+						&:hover{
+							background: rgba(213, 235, 38, 0.1);
+						}
+
+					}
+				}
+			}
+		}
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+    /* Large laptop styles (wider than 1024 pixels) */
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Desktop styles (wider than 1140 pixels) */
+
+}
