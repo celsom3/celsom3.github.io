@@ -1,12 +1,13 @@
 // Splash
 
-.splash{
+#splash{
 	width: 100%;
 	height: 100%;
 	position: relative;
 	overflow: auto;
+	min-height: 500px;
 	.splash-box{
-		min-height: 500px;
+
 		margin-top: 30px;
 	}
 }
