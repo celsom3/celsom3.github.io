@@ -2,6 +2,7 @@
 
 $brand-1: #0677e0;
 $brand-2: #e0b706;
+$brand-3: #1c1c1c;
 
 // First to set the fonts for most HTML elements
 
@@ -40,31 +41,41 @@ a{
 
 
 // Navigation
-
-.main-nav{
+header{
 	color: white;
 	.brand{
 		color: white;
 		text-decoration: none;
+		img{
+
+		}
 	}
 
+	// Nav Title
 	#nav-title{
-		font-size: 2em;
+	font-size: 2em;
 	}
-	.nav-menu{
+
+	nav{
+
 		li{
-			background-color: rgba(250,250,250,.1);
+
 			a{
 				color: white;
+				background-color: rgba(250,250,250,0);
 				text-decoration: none;
-				font-size: 1.2em;
+				font-size: .8em;
+				&:hover{
+					background-color: rgba(250,250,250,.5);
+				}
 			}
 		}
 	}
 }
 
+
 .dark-gradient{
-	@include linearGradient(darken($brand-1, 33%), #181818);
+	@include linearGradient(darken($brand-1, 26%), darken($brand-1, 33%));
 
 }
 
