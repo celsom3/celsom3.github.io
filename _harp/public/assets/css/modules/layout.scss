@@ -2,12 +2,11 @@
 
 #splash{
 	width: 100%;
-	height: 100%;
-	position: relative;
-	overflow: auto;
-	min-height: 500px;
+	height: auto;
+	//position: relative;
+	//overflow: auto;
+	//min-height: 500px;
 	.splash-box{
-
 		margin-top: 30px;
 	}
 }
@@ -28,10 +27,10 @@
 // Main Nav
 header{
 	width: 100%;
-	display:block;
-	overflow: auto;
+	//display:block;
+	//overflow: auto;
 	//margin-bottom: 20px;
-	height: 100%;
+	//height: 100%;
 	.nav-brand{
 		min-width: 230px;
 	}
@@ -68,6 +67,31 @@ header{
 			}
 		}
 	}
+}
+
+body {
+  margin: 0;
+  //padding-top: 250px;
+}
+#splash {
+
+  padding-top: 50px;
+
+}
+.main-nav,
+.main {
+  position: relative;
+}
+.main-nav {
+  z-index: 150;
+  //margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 // Portfolio
@@ -135,9 +159,9 @@ footer{
 		header{
 			width: 100%;
 			display:block;
-			overflow: auto;
+			//overflow: auto;
 			//margin-bottom: 20px;
-			height: 100%;
+			//height: 100%;
 
 			.brand{
 				float: left;

@@ -2,7 +2,7 @@ $(document).ready(function(){
 	// Make splash full height
 	var wHeight = $(window).height();
 	var wWidth = $(window).width();
-	$('#splash').css('height', wHeight + 'px');
+	//$('#splash').css('height', wHeight + 'px');
 
 	$(window).resize(function(){
 		if($(window).width() > 550){
@@ -25,6 +25,19 @@ $(document).ready(function(){
     //     revert: "click"
     // })
 		;
+
+	// Sticky Nav
+	var  mainNav = $(".main-nav"),
+  stickyClass = "main-nav-scrolled",
+  splashHeight = $('#splash').height();
+
+	$(window).scroll(function() {
+	  if( $(this).scrollTop() > (splashHeight + 30) ) {
+	    mainNav.addClass(stickyClass);
+	  } else {
+	    mainNav.removeClass(stickyClass);
+	  }
+	});
 });
 
 
