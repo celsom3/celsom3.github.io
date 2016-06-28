@@ -64,10 +64,10 @@
 	height: 18px;
 }
 .noUi-horizontal .noUi-handle {
-	width: 34px;
-	height: 28px;
+	width: 60px;
+	height: 60px;
 	left: -17px;
-	top: -6px;
+	top: -16px;
 }
 .noUi-vertical {
 	width: 18px;
@@ -95,8 +95,9 @@
 	border-radius: 2px;
 }
 .noUi-target {
-	border-radius: 4px;
-	border: 1px solid #D3D3D3;
+	border-radius: 0px;
+	/*border: 1px solid #D3D3D3;*/
+	border: 0;
 	box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
 }
 .noUi-target.noUi-connect {
@@ -113,7 +114,7 @@
 }
 .noUi-handle {
 	border: 1px solid #D9D9D9;
-	border-radius: 3px;
+	border-radius: 50%;
 	background: #FFF;
 	cursor: default;
 	box-shadow: inset 0 0 1px #FFF,
@@ -134,7 +135,7 @@
 	display: block;
 	position: absolute;
 	height: 14px;
-	width: 1px;
+	width: 0px;
 	background: #E8E7E6;
 	left: 14px;
 	top: 6px;
