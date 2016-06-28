@@ -12,6 +12,19 @@
 	}
 }
 
+// Burger
+#burger{
+	display:inline-block;
+	float:right;
+	margin: 25px 5px;
+	button{
+		color:white!important;
+		span{
+			color:white!important;
+		}
+	}
+}
+
 // Main Nav
 header{
 	width: 100%;
@@ -109,6 +122,12 @@ footer{
 
 @media only screen and (min-width: 550px) {
     /* Tablet styles (wider than 600 pixels) */
+
+		// Burger
+		#burger{
+			display:none;
+		}
+
 		// Main Nav
 		header{
 			width: 100%;

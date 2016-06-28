@@ -1,18 +1,3 @@
-$(document).ready(function(){
-	// Make splash full height
-	var wHeight = $(window).height();
-	$('#splash').css('height', wHeight + 'px');
-
-	// transformicons
-	transformicons.add('.tcon')
-});
-
-
-
-
-
-
-
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD module

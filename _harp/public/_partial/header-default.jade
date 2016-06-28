@@ -4,8 +4,15 @@ header.main-nav
 			a.brand(href="#")
 				img(src="assets/img/nav-logo.png" alt="Celso Mireles")
 			#nav-title #{ title }
+			#burger
+				button.tcon.tcon-menu--xcross(type='button', aria-label='toggle menu')
+					span.tcon-menu__lines(aria-hidden='true')
+					span.tcon-visuallyhidden toggle menu
+					span.tcon-indicator(aria-label='scroll', aria-hidden='true')
 
 		.six.columns
+
+
 			nav
 				ul
 					li
