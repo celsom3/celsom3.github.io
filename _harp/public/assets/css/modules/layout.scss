@@ -147,16 +147,27 @@ footer{
 
 // Media Queries
 
+.hide-small{
+	display: none;
+}
+
 @media only screen and (min-width: 400px) {
 
 		header #nav-title{
 			display: inline-block;
 		}
 
+
+
 }
 
 @media only screen and (min-width: 550px) {
     /* Tablet styles (wider than 600 pixels) */
+
+
+		.hide-small{
+			display: inline-block;
+		}
 
 		// Burger
 		#burger{
