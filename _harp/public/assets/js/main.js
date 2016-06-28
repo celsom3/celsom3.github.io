@@ -32,7 +32,7 @@ $(document).ready(function(){
   splashHeight = $('#splash').height();
 
 	$(window).scroll(function() {
-	  if( $(this).scrollTop() > (splashHeight + 30) ) {
+	  if( $(this).scrollTop() > (splashHeight + 53) ) {
 	    mainNav.addClass(stickyClass);
 	  } else {
 	    mainNav.removeClass(stickyClass);
