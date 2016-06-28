@@ -2,8 +2,8 @@
 	"index": {
 		"layout": "_layout"
 	},
-	"about": {
-		"layout": "_page"
+	"blog": {
+		"layout": "_blog"
 	},
 	"feed": {
 		"layout": "false"
