@@ -1,9 +1,10 @@
 header.main-nav
 	.row
 		.six.columns.nav-brand
-			a.brand(href="#")
+			a.brand(href="/")
 				img(src="assets/img/nav-logo.png" alt="Celso Mireles")
-			#nav-title #{ title }
+			#nav-title 
+				a(href="/") #{ title }
 			#burger
 				button.tcon.tcon-menu--xcross(type='button', aria-label='toggle menu')
 					span.tcon-menu__lines(aria-hidden='true')
