@@ -1,13 +1,31 @@
 $(document).ready(function(){
 	// Make splash full height
 	var wHeight = $(window).height();
+	var wWidth = $(window).width();
 	$('#splash').css('height', wHeight + 'px');
 
+	$(window).resize(function(){
+		if($(window).width() > 550){
+			$('nav').css('display', 'block');
+		} else {
+			$('nav').css('display', 'none');
+			//$('#burger > button').click();
+		}
+	});
+
+
 	// transformicons
-	transformicons.add('.tcon')
+	transformicons
+		.add('.tcon', function(){
+			toggleMenu();
+		})
+		// .remove('.tcon-menu--xcross') // remove default behavior for the first icon
+    // .add('.tcon-menu--xcross', {
+    //     transform: "click",
+    //     revert: "click"
+    // })
+		;
 });
-
-
 
 
 
@@ -163,6 +181,7 @@ $(document).ready(function(){
     getElementList(elements).forEach(function(element) {
       element.classList.add(_transformClass);
     });
+		$('nav').css('display', 'block');
     return tcon;
   };
 
@@ -177,6 +196,7 @@ $(document).ready(function(){
     getElementList(elements).forEach(function(element) {
       element.classList.remove(_transformClass);
     });
+		$('nav').css('display', 'none');
     return tcon;
   };
 
