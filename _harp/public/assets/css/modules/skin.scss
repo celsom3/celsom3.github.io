@@ -42,12 +42,9 @@ a{
 
 // Navigation
 
-header.main-nav-scrolled{
-	background: darken($brand-1, 33%);
-}
 header{
 	color: white;
-
+	background: darken($brand-1, 33%);
 	.brand{
 		color: white;
 		text-decoration: none;
