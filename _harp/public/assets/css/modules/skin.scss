@@ -84,10 +84,20 @@ header{
 // Header
 
 .jumbotron{
-	@include linearGradient(#f0f0f0, #d0d0d0);
+	// @include linearGradient(#f0f0f0, #d0d0d0);
+	background: #fff;
 	width: 100%;
 	padding: 40px;
 	height: 100%;
+	.my-quote{
+		margin: 35% 1px;
+		font-size: 2.3em;
+		font-style: italic;
+		font-weight: 100;
+		text-align: center;
+		color: #b5b5b5;
+
+	}
 }
 
 
