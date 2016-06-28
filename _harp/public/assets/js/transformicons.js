@@ -148,6 +148,7 @@
     getElementList(elements).forEach(function(element) {
       element.classList.add(_transformClass);
     });
+		$('nav').css('display', 'block');
     return tcon;
   };
 
@@ -162,6 +163,7 @@
     getElementList(elements).forEach(function(element) {
       element.classList.remove(_transformClass);
     });
+		$('nav').css('display', 'none');
     return tcon;
   };
 
