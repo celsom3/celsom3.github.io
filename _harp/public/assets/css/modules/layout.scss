@@ -33,7 +33,7 @@ header{
 	//margin-bottom: 20px;
 	height: 100%;
 	.nav-brand{
-		min-width: 300px;
+		min-width: 230px;
 	}
 
 	.brand{
@@ -47,7 +47,7 @@ header{
 
 	// Nav Title
 	#nav-title{
-		display: inline-block;;
+		display: none;
 		margin: 25px 10px;
 	}
 
@@ -116,7 +116,10 @@ footer{
 // Media Queries
 
 @media only screen and (min-width: 400px) {
-    /* Larger mobile styles (wider than 320 pixels) */
+
+		header #nav-title{
+			display: inline-block;
+		}
 
 }
 
@@ -147,7 +150,7 @@ footer{
 
 			// Nav Title
 			#nav-title{
-				display: inline-block;;
+				display: inline-block;
 				margin: 25px 10px;
 			}
 
