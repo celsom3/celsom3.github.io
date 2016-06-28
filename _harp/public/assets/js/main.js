@@ -39,17 +39,6 @@ $(document).ready(function(){
 	  }
 	});
 
-	// My splash
-	var mousePos = getMousePosition();
-	var middlePoint =getMiddlePoint();
-	console.log(middlePoint);
-	// var whichQuadrant = whichQuadrant(mousePos, middlePoint);
-
-	$(document).mousemove(function(){
-		// var whichQuadrant = whichQuadrant(mousePos, middlePoint);
-		console.log(whichQuadrant(mousePos, middlePoint));
-	});
-
 
 	// Smooth scroll
 	$('body').on('click', 'a.page-scroll', function(event) {
@@ -59,6 +48,38 @@ $(document).ready(function(){
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+
+	// Show slider
+
+	var slider = document.getElementById('slider');
+
+	noUiSlider.create(slider, {
+		start: [50],
+		connect: false,
+		range: {
+			'min': 0,
+			'max': 100
+		}
+	});
+
+
+		// My splash
+		var mousePos = getMousePosition();
+		var middlePoint =getMiddlePoint();
+		//console.log(middlePoint);
+		// var whichQuadrant = whichQuadrant(mousePos, middlePoint);
+
+		$(document).mousemove(function(){
+
+			// var whichQuadrant = whichQuadrant(mousePos, middlePoint);
+			//console.log(whichQuadrant(mousePos, middlePoint));
+			
+			console.log(mousePos.x);
+
+			slider.noUiSlider.set( ((mousePos.x/wWidth) * 100) );
+		});
+
 
 
 //===============================
