@@ -50,7 +50,14 @@ $(document).ready(function(){
 		console.log(whichQuadrant(mousePos, middlePoint));
 	});
 
+
+
+//===============================
+//
+// End DOCUMENT.READY block
 });
+//
+//===============================
 
 
 function getMousePosition(){
