@@ -77,6 +77,8 @@ $(document).ready(function(){
 			var posPercent = ((mousePos.x/wWidth) * 100);
 
 			slider.noUiSlider.set( posPercent );
+
+			myHoverShow( posPercent );
 		});
 
 
@@ -87,6 +89,40 @@ $(document).ready(function(){
 });
 //
 //===============================
+
+function myHoverShow ( pos ) {
+	var pos = pos;
+	var whichThird = null;
+	//console.log('Position: ' + pos + '\nType: ' + typeof(pos))
+
+	// Determine which third the mouse is positioned in
+	// and hence, which graphic to display.
+	if ( pos > 66) {
+		whichThird = 3;
+	} else if ( pos > 33 ) {
+		whichThird = 2;
+	} else  {
+		whichThird = 1;
+	}
+
+	//
+	switch (whichThird) {
+		case 1:
+			$('#splash-img').attr('src', 'assets/img/feature/01.png')
+			break;
+		case 2:
+			$('#splash-img').attr('src', 'assets/img/feature/02.png')
+			break;
+		case 3:
+			$('#splash-img').attr('src', 'assets/img/feature/03.png')
+			break;
+		default:
+
+	}
+
+
+
+}
 
 
 function getMousePosition(){
