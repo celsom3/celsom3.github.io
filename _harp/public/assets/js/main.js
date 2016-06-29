@@ -137,6 +137,14 @@ $(document).ready(function(){
 			modalTarget: 'modal6'
 		});
 
+		$("#modal-link-blog").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'blog',
+			overflow: 'scroll'
+		});
+
 
 
 //===============================
