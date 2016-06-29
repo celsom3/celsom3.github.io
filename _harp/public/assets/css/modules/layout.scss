@@ -139,6 +139,17 @@ footer{
 	margin: 30px auto;
 }
 
+.closebt{
+	width: 35px;
+	height:35px;
+	margin-top: 15px;
+	transition: all 0.2s;
+	&:hover{
+		transform: rotate(45deg);
+		cursor: pointer;
+	}
+}
+
 
 // Padding Classes
 
