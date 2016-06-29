@@ -149,6 +149,7 @@
       element.classList.add(_transformClass);
     });
 		$('nav').css('display', 'block');
+		$('.nav-slide').addClass('zoomIn');
     return tcon;
   };
 
@@ -164,6 +165,7 @@
       element.classList.remove(_transformClass);
     });
 		$('nav').css('display', 'none');
+		$('.nav-slide').removeClass('zoomIn');
     return tcon;
   };
 
