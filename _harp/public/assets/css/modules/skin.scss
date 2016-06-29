@@ -136,7 +136,11 @@ header{
 	    height: 100%;
 	    width: 100%;
 			h3{
-				padding: 20%;
+				// padding: 30%;
+				font-size: 1.9em;
+				padding-top: 40%;
+				margin-left: 20px;
+				margin-right: 20px;
 			}
 		}
 	}
@@ -300,4 +304,39 @@ $tcon-svgchevron-timing: 3s !default;
   .tcon-svgchevron path.a#{$i} {
     animation-delay: -($i - ($i/2)) + 0.5s;
   }
+}
+
+@media only screen and (min-width: 400px) {
+
+
+
+@media only screen and (min-width: 550px) {
+    /* Tablet styles (wider than 600 pixels) */
+		// Portfolio Section
+		#portfolio{
+			.container{
+			}
+			.portfolio-item{
+				.box-bg{
+				}
+				.box-content{
+					h3{
+						font-size: 1.2em;
+					}
+				}
+			}
+		}
+
+	}
+
+}
+
+@media only screen and (min-width: 1000px) {
+    /* Large laptop styles (wider than 1024 pixels) */
+
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Desktop styles (wider than 1140 pixels) */
+
 }
