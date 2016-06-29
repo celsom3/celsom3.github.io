@@ -1,18 +1,20 @@
 doctype html
 head
-	!= partial("../_partial/head")
-	body
+	!= partial("../_partial/blog-head")
+body
 
 	!= partial('../_partial/header-post')
 
-	section.post(itemscope, itemtype="http://schema.org/BlogPosting", itemprop="articleBody")
-		article#scroll.post-content(role="article")
-			!= yield
+	.container
+		section.post(itemscope, itemtype="http://schema.org/BlogPosting", itemprop="articleBody")
+			article#scroll.post-content(role="article")
+				!= yield
 
-		!= partial("../_partial/share")
-		!= partial("../_partial/author")
-		!= partial("../_partial/comments")
-		!= partial("../_partial/footer")
+			!= partial("../_partial/share")
+			!= partial("../_partial/author")
+			!= partial("../_partial/comments")
+
+	!= partial("../_partial/blog-footer")
 
 		script#dsq-count-scr(src='//#{disqus_username}.disqus.com/count.js', async='')
 		if img
