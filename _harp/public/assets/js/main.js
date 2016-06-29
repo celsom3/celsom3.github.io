@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 
 	// Smooth scroll
-	$('body').on('click', 'a.page-scroll', function(event) {
+	$('body').on('click', 'a.page-scroll,a.page-scrollx', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 150
