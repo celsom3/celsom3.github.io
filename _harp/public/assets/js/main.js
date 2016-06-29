@@ -164,15 +164,15 @@ function myHoverShow ( pos ) {
 	//
 	switch (whichThird) {
 		case 1:
-			$('#splash-img').attr('src', 'assets/img/feature/01.png');
+			$('#splash-img').attr('src', 'assets/img/feature/01.svg');
 			$('#splash-heading').html('Engineer');
 			break;
 		case 2:
-			$('#splash-img').attr('src', 'assets/img/feature/02.png');
+			$('#splash-img').attr('src', 'assets/img/feature/02.svg');
 			$('#splash-heading').html('Artist');
 			break;
 		case 3:
-			$('#splash-img').attr('src', 'assets/img/feature/03.png');
+			$('#splash-img').attr('src', 'assets/img/feature/03.svg');
 			$('#splash-heading').html('Organizer');
 			break;
 		default:
