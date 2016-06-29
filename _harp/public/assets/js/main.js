@@ -99,42 +99,48 @@ $(document).ready(function(){
 			animatedIn: animationIn,
 			animatedOUt: animationOut,
 			color: modalColor,
-			modalTarget: 'modal1'
+			modalTarget: 'modal1',
+			overflow: 'scroll'
 		});
 
 		$("#modal-link-02").animatedModal({
 			animatedIn: animationIn,
 			animatedOUt: animationOut,
 			color: modalColor,
-			modalTarget: 'modal2'
+			modalTarget: 'modal2',
+			overflow: 'scroll'
 		});
 
 		$("#modal-link-03").animatedModal({
 			animatedIn: animationIn,
 			animatedOUt: animationOut,
 			color: modalColor,
-			modalTarget: 'modal3'
+			modalTarget: 'modal3',
+			overflow: 'scroll'
 		});
 
 		$("#modal-link-04").animatedModal({
 			animatedIn: animationIn,
 			animatedOUt: animationOut,
 			color: modalColor,
-			modalTarget: 'modal4'
+			modalTarget: 'modal4',
+			overflow: 'scroll'
 		});
 
 		$("#modal-link-05").animatedModal({
 			animatedIn: animationIn,
 			animatedOUt: animationOut,
 			color: modalColor,
-			modalTarget: 'modal5'
+			modalTarget: 'modal5',
+			overflow: 'scroll'
 		});
 
 		$("#modal-link-06").animatedModal({
 			animatedIn: animationIn,
 			animatedOUt: animationOut,
 			color: modalColor,
-			modalTarget: 'modal6'
+			modalTarget: 'modal6',
+			overflow: 'scroll'
 		});
 
 		$("#modal-link-blog").animatedModal({
