@@ -20,7 +20,7 @@
 					.portfolio-item.text-center
 						.box-bg
 							img(src="http://lorempixel.com/300/300/" alt="Portfolio Item")
-						a.box-content(href="#")
+						a#modal-link-01.box-content(href="#animatedModal")
 							h3.text-center Item 1
 
 				.four.columns
@@ -55,3 +55,11 @@
 							img(src="http://lorempixel.com/305/305/" alt="Portfolio Item")
 						a.box-content(href="#")
 							h3.text-center Item 6
+
+// Modals
+#animatedModal
+	// THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal"
+	.close-animatedModal
+		| CLOSE MODAL
+	.modal-content
+		// Your modal content goes here

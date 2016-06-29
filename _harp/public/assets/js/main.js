@@ -82,6 +82,17 @@ $(document).ready(function(){
 		});
 
 
+		// Initialize Modals
+
+		var modalOptions = {
+			animatedIn: 'lightSpeedIn',
+			animatedOUt: 'bounceOutDown',
+			color: '#f9e8a0'
+		};
+
+		$("#modal-link-01").animatedModal(modalOptions);
+
+
 
 //===============================
 //
