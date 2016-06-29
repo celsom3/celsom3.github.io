@@ -150,6 +150,17 @@
     });
 		$('nav').css('display', 'block');
 		$('.nav-slide').addClass('zoomIn');
+
+		// Smooth scroll
+		$('body').on('click', 'a.page-scrollx', function(event) {
+	        var $anchor = $(this);
+	        $('html, body').stop().animate({
+	            scrollTop: $($anchor.attr('href')).offset().top - 150
+	        }, 1500, 'easeInOutExpo');
+					tcon.revert(elements);
+	        event.preventDefault();
+	    });
+
     return tcon;
   };
 
