@@ -1,14 +1,11 @@
 doctype html
 head
-  != partial("_partial/head")
-  body
+	!= partial("_partial/head")
+body
+	//- .dark-gradients
+	!= partial('_partial/home-header')
 
-  != partial('_partial/svg-icons.html')
-  != partial('_partial/header-default')
+	!= yield
 
-  section.post(itemscope, itemtype="http://schema.org/BlogPosting", itemprop="articleBody")
-    article#scroll.post-content(role="article")
-      != yield
-
-    != partial("_partial/footer")
-    != partial("_partial/analytics")
+	!= partial("_partial/footer")
+	!= partial("_partial/analytics")

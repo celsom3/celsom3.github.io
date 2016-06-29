@@ -1,0 +1,11 @@
+doctype html
+head
+	!= partial("_partial/head")
+body
+	//- .dark-gradients
+	!= partial('_partial/header-default')
+
+	!= yield
+
+	!= partial("_partial/footer")
+	!= partial("_partial/analytics")
