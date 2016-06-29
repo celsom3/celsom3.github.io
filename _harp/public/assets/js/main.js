@@ -87,10 +87,55 @@ $(document).ready(function(){
 		var modalOptions = {
 			animatedIn: 'lightSpeedIn',
 			animatedOUt: 'bounceOutDown',
-			color: '#f9e8a0'
+			color: '#f9e8a0',
+			modalTarget: 'modal1'
 		};
 
-		$("#modal-link-01").animatedModal(modalOptions);
+		var animationIn = 'lightSpeedIn';
+		var animationOut = 'bounceOutDown';
+		var modalColor = '#fff';
+
+		$("#modal-link-01").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'modal1'
+		});
+
+		$("#modal-link-02").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'modal2'
+		});
+
+		$("#modal-link-03").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'modal3'
+		});
+
+		$("#modal-link-04").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'modal4'
+		});
+
+		$("#modal-link-05").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'modal5'
+		});
+
+		$("#modal-link-06").animatedModal({
+			animatedIn: animationIn,
+			animatedOUt: animationOut,
+			color: modalColor,
+			modalTarget: 'modal6'
+		});
 
 
 
