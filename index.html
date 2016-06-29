@@ -21,6 +21,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icons/apple-touch-icon-152x152.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-touch-icon-180x180.png" />
   <link rel="icon" type="image/png" href="assets/img/icons/android-chrome-192x192.png" sizes="192x192" />
+  <link rel="stylesheet" href="assets/css/nouislider.css" />
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="canonical" href="http://celsomireles.com" />
   <link rel="alternate" type="application/rss+xml" title="" href="http://celsomireles.com/feed.xml" />
@@ -53,15 +55,25 @@
 
 <body>
   <div id="splash" class="dark-gradient">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Somewhere between artist, engineer, and organizer.</h1></div>
+      </div>
+    </div>
     <div class="splash-box">
+      <div id="slider" style="width:100%;min-width;300px;height: 30px;margin-bottom:30px;"></div>
       <div class="container">
         <div class="row">
-          <div class="six columns hide-small"><img src="http://placehold.it/300x350" class="img-responsive" /></div>
-          <div class="six columns"><img src="assets/img/feature/01.png" class="img-responsive" /></div>
+          <div class="six columns hide-small">
+            <h3 id="splash-heading" style="color:white;width:300px;height:350px;">Engineer</h3></div>
+          <div class="six columns"><img id="splash-img" src="assets/img/feature/01.svg" class="img-responsive" /></div>
         </div>
         <div class="row">
           <div style="min-width:300px!important;padding-top:30px;" class="twelve columns">
-            <p class="text-center"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 36" class="tcon-svgchevron"><path d="M0,0l15,16L30,0" class="a3"></path><path d="M0,10l15,16l15-16" class="a2"></path><path d="M0,20l15,16l15-16" class="a1"></path></svg></p>
+            <a href="#main" class="page-scroll">
+              <p class="text-center"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 36" class="tcon-svgchevron"><path d="M0,0l15,16L30,0" class="a3"></path><path d="M0,10l15,16l15-16" class="a2"></path><path d="M0,20l15,16l15-16" class="a1"></path></svg></p>
+            </a>
           </div>
         </div>
       </div>
@@ -74,60 +86,248 @@
         <div id="nav-title"> <a href="index.html">Celso Mireles</a></div>
         <div id="burger"><button type="button" aria-label="toggle menu" class="tcon tcon-menu--xcross"><span aria-hidden="true" class="tcon-menu__lines"></span><span class="tcon-visuallyhidden">toggle menu</span><span aria-label="scroll" aria-hidden="true" class="tcon-indicator"></span></button></div>
       </div>
-      <div class="six columns">
+      <div class="six columns nav-slide animated">
         <nav>
           <ul>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">You</a></li>
+            <li><a id="modal-link-blog" href="#blog" class="page-scrollx">Blog</a></li>
+            <li><a href="#portfolio" class="page-scrollx">Work</a></li>
+            <li><a href="#you" class="page-scrollx">You</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
-  <div class="main">
+  <div id="main" class="main">
     <section role="banner" class="container jumbotron">
       <div class="row">
-        <div class="twelve columns">
-          <h1>Somewhere between artist, engineer, and organizer.</h1></div>
-      </div>
-      <div class="row">
+        <div class="six columns"><img src="assets/img/celso-mireles.jpg" alt="Image of Me" style="width:100%" class="img-responsive"></div>
         <div class="six columns">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi laborum ut distinctio, deserunt deleniti libero vitae rerum temporibus esse. Nostrum incidunt vero veniam minima, recusandae eaque voluptatum mollitia enim repudiandae.</p>
-        </div>
-        <div class="six columns"><img src="http://placehold.it/200x300" alt="Image of Me" style="width:100%" class="img-responsive"></div>
-      </div>
-    </section>
-    <section id="portfolio" class="container">
-      <div class="row">
-        <div class="four columns">
-          <div class="portfolio-item text-center">
-            <h3 class="text-center">Item 1</h3><img src="http://placehold.it/300x400" alt="Portfolio Item"><a href="#">See More</a></div>
-        </div>
-        <div class="four columns">
-          <div class="portfolio-item text-center">
-            <h3 class="text-center">Item 2</h3><img src="http://placehold.it/300x400" alt="Portfolio Item"><a href="#">See More</a></div>
-        </div>
-        <div class="four columns">
-          <div class="portfolio-item text-center">
-            <h3 class="text-center">Item 3</h3><img src="http://placehold.it/300x400" alt="Portfolio Item"><a href="#">See More</a></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="four columns">
-          <div class="portfolio-item text-center">
-            <h3 class="text-center">Item 4</h3><img src="http://placehold.it/300x400" alt="Portfolio Item"><a href="#">See More</a></div>
-        </div>
-        <div class="four columns">
-          <div class="portfolio-item text-center">
-            <h3 class="text-center">Item 5</h3><img src="http://placehold.it/300x400" alt="Portfolio Item"><a href="#">See More</a></div>
-        </div>
-        <div class="four columns">
-          <div class="portfolio-item text-center">
-            <h3 class="text-center">Item 6</h3><img src="http://placehold.it/300x400" alt="Portfolio Item"><a href="#">See More</a></div>
+          <blockquote class="my-quote">This is a random quote that was generated by a custom made script.</blockquote>
         </div>
       </div>
     </section>
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h1 class="text-center">Check Out My Work</h1></div>
+        </div>
+        <div class="row">
+          <div class="four columns">
+            <div class="portfolio-item text-center">
+              <div class="box-bg"><img src="assets/img/portfolio/01.jpg" alt="Translatify.js"></div><a id="modal-link-01" href="#modal1" class="box-content"><h3 class="text-center">Translatify.js</h3></a></div>
+          </div>
+          <div class="four columns">
+            <div class="portfolio-item text-center">
+              <div class="box-bg"><img src="assets/img/portfolio/02.jpg" alt="Undocumoney Web App"></div><a id="modal-link-02" href="#modal2" class="box-content"><h3 class="text-center">Undocumoney Web App</h3></a></div>
+          </div>
+          <div class="four columns">
+            <div class="portfolio-item text-center">
+              <div class="box-bg"><img src="assets/img/portfolio/03.jpg" alt="Custom Nationbuilder Website"></div><a id="modal-link-03" href="#modal3" class="box-content"><h3 class="text-center">Custom Nationbuilder Website</h3></a></div>
+          </div>
+        </div>
+        <div class="row pad-top-20">
+          <div class="four columns">
+            <div class="portfolio-item text-center">
+              <div class="box-bg"><img src="assets/img/portfolio/04.jpg" alt="Custom WordPress Theme Frances Valdez"></div><a id="modal-link-04" href="#modal4" class="box-content"><h3 class="text-center">Custom WordPress Theme</h3></a></div>
+          </div>
+          <div class="four columns">
+            <div class="portfolio-item text-center">
+              <div class="box-bg"><img src="assets/img/portfolio/05.jpg" alt="Custom CSS Map"></div><a id="modal-link-05" href="#modal5" class="box-content"><h3 class="text-center">Custom CSS Map Plugin</h3></a></div>
+          </div>
+          <div class="four columns">
+            <div class="portfolio-item text-center">
+              <div class="box-bg"><img src="assets/img/portfolio/06.jpg" alt="Redadas De Obama (Web App)"></div><a id="modal-link-06" href="#modal6" class="box-content"><h3 class="text-center">Redadas De Obama (Web App)</h3></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Modals-->
+  <div id="modal1">
+    <div class="close-modal close-modal1 text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <h3>Translatify.js</h3>
+        <hr>
+        <p>This is a small javascript library I wrote for a static website on <a href="http://movimientocosecha.com" target="_blank">MovimientoCosecha.com.</a></p>
+        <p>This is an open source library, and you can check out the code at <a href="https://github.com/cosecha/Translatify.js" target="_blank">http://github.com/cosecha/Translatify.js</a>. While you're at it, you can see the repository for the Cosecha
+          website at <a href="https://github.com/Cosecha/cosecha.github.io" target="_blank">http://github.com/Cosecha/cosecha.github.io</a>.</p><img src="assets/img/portfolio/01.jpg" alt="" class="text-center"></div>
+    </div>
+  </div>
+  <div id="modal2">
+    <div class="close-modal close-modal2 text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <h3>Undocumoney Web App</h3>
+        <hr>
+        <p>This is a meteor.js web app I developed for an immigrant right campaign. While the site has been taken down since, you can check out the code on <a href="https://github.com/celsom3/undocumoney" target="_blank">https://github.com/celsom3/undocumoney</a>.</p>
+        <img
+          src="assets/img/portfolio/02.jpg" alt="" class="text-center"></div>
+    </div>
+  </div>
+  <div id="modal3">
+    <div class="close-modal close-modal3 text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <h3>Custom Nationbuilder Website</h3>
+        <hr>
+        <p>Ernesto Fonseca wanted a clean, modern design for his campaign for Tempe City Council. It also had to be on Nationbuilder.</p>
+        <p>While the design was not my own, I converted the obtained HTML/CSS/JS design template and converted it into a Nationbuilder site. While the site has since been taken down, you can see the code, and my workflow at <a href="https://bitbucket.org/celsom3/fonseca-nationbuilder-theme"
+            target="_blank">https://bitbucket.org/celsom3/fonseca-nationbuilder-theme</a>.</p>
+        <p>You will notice that this repository is on BitBucket, which I also have experience with.</p><img src="assets/img/portfolio/03.jpg" alt="" class="text-center"></div>
+    </div>
+  </div>
+  <div id="modal4">
+    <div class="close-modal close-modal4 text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <h3>Custom WordPress Theme</h3>
+        <hr>
+        <p>Frances Valdez, an exceptional immigration lawyer based out of Houston, TX, wanted a custom WordPress design. She had an existing WordPress website, but the design needed some serious modernization.</p>
+        <p>You can see the site live at <a href="http://fvaldezlaw.com/" target="_blank">http://fvaldezlaw.com/</a>.</p><img src="assets/img/portfolio/04.jpg" alt="" class="text-center"></div>
+    </div>
+  </div>
+  <div id="modal5">
+    <div class="close-modal close-modal5 text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <h3>Custom CSS Map Plugin</h3>
+        <hr>
+        <p>This project came out of a need to create an interactive map for<a href="http://www.thedream.us/colleges/">TheDream.us</a>.</p>
+        <p>After customizing some code I found on CopePen, I decided to write my first WordPress Plugin! You can see the code at <a href="https://github.com/PochoLabs/WordPress-PochoMaps" target="_blank">https://github.com/PochoLabs/WordPress-PochoMaps</a>.</p>
+        <img
+          src="assets/img/portfolio/05.jpg" alt="" class="text-center"></div>
+    </div>
+  </div>
+  <div id="modal6">
+    <div class="close-modal close-modal6 text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <h3>Redadas De Obama (Web App)</h3>
+        <hr>
+        <p>This is one of my proudest projects, and it is still in active development.</p>
+        <p>This is a web app for crowdsourcing immigration raid info so undocumented people can avoid them. You can see the project live at<a href="http://www.redadasdeobama.com/" target="_blank">http://www.redadasdeobama.com/</a>.</p>
+        <p>If you are interested in seeing the code, the GitHub repo is: <a href="https://github.com/Cosecha/redadas-de-obama" target="_blank">https://github.com/Cosecha/redadas-de-obama</a>.</p><img src="assets/img/portfolio/06.jpg" alt="" class="text-center"></div>
+    </div>
+  </div>
+  <section id="you">
+    <div class="container pad-top-30">
+      <div class="row">
+        <div class="twelve columns">
+          <h1 class="text-center">What Brings You Here?</h1>
+          <p class="lead">I'm not complaining at all, but if you've gotten this far, I'd love to connect about your projects, questions, and general chit chat. Here are all the places you can do that:</p>
+          <ul>
+            <li><a href="mailto:celsomireles@gmail.com">Email Me</a></li>
+            <li><a href="https://twitter.com/celsom3">Twitter</a></li>
+            <li><a href="https://github.com/celsom3">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="blog">
+    <div class="close-modal close-blog text-center"><img src="assets/img/icons/close.svg" class="closebt"></div>
+    <div class="container">
+      <div class="modal-content">
+        <!-- Your modal content goes here-->
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2016-06-10-developing-redadas-de-obama-part-1" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">10</span><span class="month-year"> June 2016</span></time></a>
+              <div class="content"><a href="/posts/2016-06-10-developing-redadas-de-obama-part-1"><h2 itemprop="name" class="post-title">Developing RedadasDeObama.com (Part 1)</h2></a>
+                <p class="description">My first real shot at an open source project. ....<a href="/posts/2016-06-10-developing-redadas-de-obama-part-1" class="link">Read more about Developing RedadasDeObama.com (Part 1)</a></p>
+                <div class="tags"><a href="/tags/#social justice">social justice</a><a href="/tags/#development">development</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2016-01-17-big-city-blues" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">17</span><span class="month-year"> January 2016</span></time></a>
+              <div class="content"><a href="/posts/2016-01-17-big-city-blues"><h2 itemprop="name" class="post-title">Big City Blues</h2></a>
+                <p class="description">So we went up to Flagstaff for some time in the snow this weekend. The nephew had wanted to see some snow for a while now and I was more than happy to test out my cool little pocket stove. ....<a href="/posts/2016-01-17-big-city-blues"
+                    class="link">Read more about Big City Blues</a></p>
+                <div class="tags"><a href="/tags/#living">living</a><a href="/tags/#trips">trips</a><a href="/tags/#sustainability">sustainability</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2016-01-15-from-jekyll-to-harp-js" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">15</span><span class="month-year"> January 2016</span></time></a>
+              <div class="content"><a href="/posts/2016-01-15-from-jekyll-to-harp-js"><h2 itemprop="name" class="post-title">Theme Conversion from Jekyll to Harp.js</h2></a>
+                <p class="description">It all started with the simple goal of wanting to write a quick blog post. But that led me to remember how dissatisfied I was with the way my website looked. It was, at the time, a Jekyll site hosted on Github Pages. ....<a href="/posts/2016-01-15-from-jekyll-to-harp-js"
+                    class="link">Read more about Theme Conversion from Jekyll to Harp.js</a></p>
+                <div class="tags"><a href="/tags/#web development">web development</a><a href="/tags/#jekyll">jekyll</a><a href="/tags/#harpjs">harpjs</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2016-01-13-first-pull-request-on-github" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">13</span><span class="month-year"> January 2016</span></time></a>
+              <div class="content"><a href="/posts/2016-01-13-first-pull-request-on-github"><h2 itemprop="name" class="post-title">My first Pull Request</h2></a>
+                <p class="description">Today was pretty epic for me. Not gonna lie. At the risk of sounding like a total noob, I will announce that today was the first time I contributed to an open source project. Let me start from the beginning ....<a href="/posts/2016-01-13-first-pull-request-on-github"
+                    class="link">Read more about My first Pull Request</a></p>
+                <div class="tags"><a href="/tags/#git">git</a><a href="/tags/#web development">web development</a><a href="/tags/#wordpress">wordpress</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2015-09-14-Lessons-from-my-first-creatathon" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">14</span><span class="month-year"> September 2015</span></time></a>
+              <div class="content"><a href="/posts/2015-09-14-Lessons-from-my-first-creatathon"><h2 itemprop="name" class="post-title">Lessons from my first CreataThon</h2></a>
+                <p class="description">This past weekend I participated in Arizona’s first Creatathon. The idea of the event is to get teams of creatives into a room for 24 hours to deliver pro-bono value to 7 Arizona nonprofits. I served as team lead for the Big Brothers Big
+                  Sisters ....<a href="/posts/2015-09-14-Lessons-from-my-first-creatathon" class="link">Read more about Lessons from my first CreataThon</a></p>
+                <div class="tags"><a href="/tags/#entrepreneur">entrepreneur</a><a href="/tags/#networking">networking</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2015-08-15-thoughts-on-the-hamburger-menu" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">15</span><span class="month-year"> August 2015</span></time></a>
+              <div class="content"><a href="/posts/2015-08-15-thoughts-on-the-hamburger-menu"><h2 itemprop="name" class="post-title">Thoughts on the Hamburger Menu</h2></a>
+                <p class="description">I must admit, I would internally roll my eyes when friends bash on the now famous Hamburger Menu. ....<a href="/posts/2015-08-15-thoughts-on-the-hamburger-menu" class="link">Read more about Thoughts on the Hamburger Menu</a></p>
+                <div class="tags"><a href="/tags/#design">design</a><a href="/tags/#web development">web development</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <article role="article" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost" class="post-item">
+              <a href="/posts/2015-08-13-change-of-scenery" class="datetime">
+                <meta itemprop="datePublished" content="undefined"><time datetime="undefined"><span class="day">13</span><span class="month-year"> August 2015</span></time></a>
+              <div class="content"><a href="/posts/2015-08-13-change-of-scenery"><h2 itemprop="name" class="post-title">Change of Scenery</h2></a>
+                <p class="description">I haven't really had an online space to share some writing lately. I used to have a WordPress site, but that was too complicated to handle for just a simple blog. ....<a href="/posts/2015-08-13-change-of-scenery" class="link">Read more about Change of Scenery</a></p>
+                <div
+                  class="tags"><a href="/tags/#jekyll">jekyll</a><a href="/tags/#web">web</a></div>
+          </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   <footer>
     <div class="footer-content">
@@ -138,8 +338,12 @@
       </div>
     </div>
   </footer>
-  <!--script(src='/assets/js/trasformicons.js')-->
   <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/transformicons.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/nouislider.js"></script>
+  <script src="assets/js/animatedModal.js"></script>
+  <script src="assets/js/hovershow.js"></script>
   <script src="assets/js/main.js"></script>
   <script>
     (function(i, s, o, g, r, a, m)

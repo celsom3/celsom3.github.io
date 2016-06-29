@@ -7,20 +7,22 @@
   <title>Theme Conversion from Jekyll to Harp.js</title>
   <meta itemprop="name" content="Celso Mireles" />
   <meta itemprop="description" content="Why I did it and you can have your own static site with Harp.js" />
-  <meta itemprop="image" content="assets/img/blog-image.png" />
-  <link rel="shortcut icon" href="assets/img/icons/favicon.ico" type="image/x-icon" />
+  <meta itemprop="image" content="../assets/img/blog-image.png" />
+  <link rel="shortcut icon" href="../assets/img/icons/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="assets/img/icons/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/icons/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/icons/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/icons/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/icons/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/icons/apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/icons/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/icons/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icons/apple-touch-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-touch-icon-180x180.png" />
-  <link rel="icon" type="image/png" href="assets/img/icons/android-chrome-192x192.png" sizes="192x192" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/icons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/icons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/icons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/icons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/icons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="../assets/img/icons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/icons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="../assets/img/icons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/apple-touch-icon-180x180.png" />
+  <link rel="icon" type="image/png" href="../assets/img/icons/android-chrome-192x192.png" sizes="192x192" />
+  <link rel="stylesheet" href="../assets/css/nouislider.css" />
+  <link rel="stylesheet" href="../assets/css/animate.min.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
   <link rel="canonical" href="http://celsomireles.com" />
   <link rel="alternate" type="application/rss+xml" title="" href="http://celsomireles.com/feed.xml" />
   <meta property="og:title" content="Theme Conversion from Jekyll to Harp.js" />
@@ -45,152 +47,160 @@
   <meta name="twitter:title" content="Theme Conversion from Jekyll to Harp.js" />
   <meta name="twitter:description" content="Why I did it and you can have your own static site with Harp.js" />
   <meta property="twitter:image" content="http://celsomireles.com/assets/img/blog-image.png" />
+</head>
 
-  <body></body>
+<body>
   <header role="banner" class="header-post">
-    <div>
-      <div><time itemprop="datePublished" datetime="2016-01-15 12:02:35 -0200" class="date">January 15, 2016</time>
+    <div class="header-post-bg">
+      <div class="content"><time itemprop="datePublished" datetime="2016-01-15 12:02:35 -0200" class="date">January 15, 2016</time>
         <h1 itemprop="name" class="post-title">Theme Conversion from Jekyll to Harp.js</h1>
         <p itemprop="description" class="subtitle">Why I did it and you can have your own static site with Harp.js</p>
       </div>
     </div>
   </header>
-  <section itemscope itemtype="http://schema.org/BlogPosting" itemprop="articleBody" class="post">
-    <article id="scroll" role="article" class="post-content">
-      <p>So I just spent an entire day converting a <a href="http://Jekyllrb.com/">Jekyll</a> theme into a <a href="http://harpjs.com/">Harp.js</a> site and I&#39;d like to share.</p>
-      <p>It all started with the simple goal of wanting to write a quick blog post. But that led me to remember how dissatisfied I was with the way my website looked. It was, at the time, a Jekyll site hosted on Github Pages.</p>
-      <p>I really like Jekyll, don&#39;t get me wrong. I still want to take the time to learn it better one day. Unfortunately, I somehow messed up my ruby installation. I think I have different versions installed. I sometimes need to use <code>sudo</code>.
-        It was mess.</p>
-      <p>But I did find a <a href="http://jekyllthemes.org/themes/will-jekyll-template/">Jekyll theme design</a> that I really like.</p>
-      <p>Then I remembered that I know a bit of Harp.js. In fact, I created a Harp Wireframe <a href="https://github.com/celsom3/Harp-Bootstrap-Starter">Boilerplate Generator, linked here</a>.</p>
-      <p>So I though:</p>
-      <blockquote>
-        <p>Why not convert the Jekyll theme to Harp? Shouldn&#39;t be that hard.&quot;</p>
-      </blockquote>
-      <p>It&#39;s not that it was hard, but it took a <em>lot</em> longer than I should have spent on it.</p>
-      <p>Either way I finished it to the point that I am happy with it.</p>
-      <p>I wasn&#39;t able to transfer all the features from the Jekyll them, but it is still a very functional site.</p>
-      <p>Here are some things I wasn&#39;t able to port over:</p>
-      <ul>
-        <li>Modularized CSS (stylus was originally used, while I just quickly converted to Sass)</li>
-        <li>Cool search bar</li>
-      </ul>
-      <p>I was able to add some features of my own:</p>
-      <ul>
-        <li>Ability to change color scheme with just one value</li>
-        <li>Fade overlay to header section</li>
-        <li>Option to add image for blog header section</li>
-      </ul>
-      <p>How to use it</p>
-      <p>So let&#39;s say you want to use it. You absolutely can. The code is open sourced under the <a href="https://opensource.org/licenses/MIT">MIT license</a> and here is how you can use it.</p>
-      <ol>
-        <li>Install Harp.js (NOTE: this is assuming you have Node.js installed. If not, go to <a href="https://nodejs.org">nodejs.org</a>.)</li>
-      </ol> <pre><code>npm install harp
+  <div class="container">
+    <section itemscope itemtype="http://schema.org/BlogPosting" itemprop="articleBody" class="post">
+      <article id="scroll" role="article" class="post-content">
+        <p>So I just spent an entire day converting a <a href="http://Jekyllrb.com/">Jekyll</a> theme into a <a href="http://harpjs.com/">Harp.js</a> site and I&#39;d like to share.</p>
+        <p>It all started with the simple goal of wanting to write a quick blog post. But that led me to remember how dissatisfied I was with the way my website looked. It was, at the time, a Jekyll site hosted on Github Pages.</p>
+        <p>I really like Jekyll, don&#39;t get me wrong. I still want to take the time to learn it better one day. Unfortunately, I somehow messed up my ruby installation. I think I have different versions installed. I sometimes need to use <code>sudo</code>.
+          It was mess.</p>
+        <p>But I did find a <a href="http://jekyllthemes.org/themes/will-jekyll-template/">Jekyll theme design</a> that I really like.</p>
+        <p>Then I remembered that I know a bit of Harp.js. In fact, I created a Harp Wireframe <a href="https://github.com/celsom3/Harp-Bootstrap-Starter">Boilerplate Generator, linked here</a>.</p>
+        <p>So I though:</p>
+        <blockquote>
+          <p>Why not convert the Jekyll theme to Harp? Shouldn&#39;t be that hard.&quot;</p>
+        </blockquote>
+        <p>It&#39;s not that it was hard, but it took a <em>lot</em> longer than I should have spent on it.</p>
+        <p>Either way I finished it to the point that I am happy with it.</p>
+        <p>I wasn&#39;t able to transfer all the features from the Jekyll them, but it is still a very functional site.</p>
+        <p>Here are some things I wasn&#39;t able to port over:</p>
+        <ul>
+          <li>Modularized CSS (stylus was originally used, while I just quickly converted to Sass)</li>
+          <li>Cool search bar</li>
+        </ul>
+        <p>I was able to add some features of my own:</p>
+        <ul>
+          <li>Ability to change color scheme with just one value</li>
+          <li>Fade overlay to header section</li>
+          <li>Option to add image for blog header section</li>
+        </ul>
+        <p>How to use it</p>
+        <p>So let&#39;s say you want to use it. You absolutely can. The code is open sourced under the <a href="https://opensource.org/licenses/MIT">MIT license</a> and here is how you can use it.</p>
+        <ol>
+          <li>Install Harp.js (NOTE: this is assuming you have Node.js installed. If not, go to <a href="https://nodejs.org">nodejs.org</a>.)</li>
+        </ol> <pre><code>npm install harp
 </code></pre>
-      <ol>
-        <li>Clone the repository</li>
-      </ol> <pre><code>git clone https://github.com/celsom3/celsom3.github.io.git
+        <ol>
+          <li>Clone the repository</li>
+        </ol> <pre><code>git clone https://github.com/celsom3/celsom3.github.io.git
 </code></pre>
-      <ol>
-        <li>Move into that directory</li>
-      </ol> <pre><code>cd celsom3.guthub.io
+        <ol>
+          <li>Move into that directory</li>
+        </ol> <pre><code>cd celsom3.guthub.io
 </code></pre>
-      <ol>
-        <li>Start the server</li>
-      </ol> <pre><code>harp server _harp
+        <ol>
+          <li>Start the server</li>
+        </ol> <pre><code>harp server _harp
 </code></pre>
-      <p>Note that the usual way to start the server is <code>harp server</code>, but that is usually when you are <em>in</em> the harp directory.</p>
-      <p>You will now be able to see your site running on</p> <pre><code>http://localhost:9000
+        <p>Note that the usual way to start the server is <code>harp server</code>, but that is usually when you are <em>in</em> the harp directory.</p>
+        <p>You will now be able to see your site running on</p> <pre><code>http://localhost:9000
 </code></pre>
-      <p>Now you can edit the project in <code>_harp</code> to your liking. I recommend developing on <a href="https://www.mozilla.org/en-US/firefox/developer/?utm_medium=paidsearch&amp;utm_source=google&amp;utm_campaign=DEV2015Q4">Firefox Developer edition</a>,
-        as they have a &#39;LiveReload&#39;-like feature. They call it &#39;Autoreload Preferences&#39; under the &#39;Tools&#39; menu.</p>
-      <p>I really like that tool as that is just another tool I don&#39;t have to worry about setting up. You can also just live <a href="http://livereload.com/">LiveReload</a> and develop in your browser of choice.</p>
-      <ol>
-        <li>Once you have something you like, you can stop the server by pressing CTRL-C and compile the project with:</li>
-      </ol> <pre><code>harp compile _harp ./
+        <p>Now you can edit the project in <code>_harp</code> to your liking. I recommend developing on <a href="https://www.mozilla.org/en-US/firefox/developer/?utm_medium=paidsearch&amp;utm_source=google&amp;utm_campaign=DEV2015Q4">Firefox Developer edition</a>,
+          as they have a &#39;LiveReload&#39;-like feature. They call it &#39;Autoreload Preferences&#39; under the &#39;Tools&#39; menu.</p>
+        <p>I really like that tool as that is just another tool I don&#39;t have to worry about setting up. You can also just live <a href="http://livereload.com/">LiveReload</a> and develop in your browser of choice.</p>
+        <ol>
+          <li>Once you have something you like, you can stop the server by pressing CTRL-C and compile the project with:</li>
+        </ol> <pre><code>harp compile _harp ./
 </code></pre>
-      <p>This tells harp to compile the harp.js project found in <code>_harp</code> into the current directory (root of the project).</p>
-      <p>This project is set up a little differently. Because this is meant for Github Pages, and Github will only serve your site from the root of the repository, we save the root directory for the compiled code, while storing the harp project in the <code>_harp</code>        directory. At the end of the day, the time spent was worth it because I was able to learn the intricacies of both Jekyll and Harp.js. To be fair, I learned more about Harp.js.</p>
-      <hr>
-      <p>I have been recently getting to know more about static site generators, and I have to say, the no back-end &quot;movement&quot; (if you can call out that) makes sense. Not all the time, but it is a valid option to consider. Once I learn more, I
-        would love to write a blog post about it.</p>
-      <p>If you would like for me to detail the steps I took to convert the theme, I would consider writing a blog post about it, but only if there is interest.</p>
-    </article>
-    <section class="share">
-      <h3>Share</h3></section>
-    <section itemprop="author" class="author">
-      <div itemscope="" itemtype="http://schema.org/Person" class="details"><img itemprop="image" src="/assets/img/blog-author.jpg" alt="{{site.name}}" class="img-rounded" />
-        <p class="def">Author</p>
-        <h3 class="name"><a itemprop="name" href="http://twitter.com/celsom3" target="_blank">Celso Mireles</a></h3>
-        <p class="desc">I am a freelance web developer and graphic designer that specializes in non-profits and social justice organizations.</p><a itemprop="email" href="mailto:celso.mireles@gmail.com" class="email">celso.mireles@gmail.com</a><br/><br/><a href="https://cash.me/$celsom3"
-          target="_blank" class="email">Send me a cup of coffee.</a></div>
-    </section>
-    <section class="comments">
-      <h3>Comments</h3>
-      <div id="disqus_thread"></div>
-    </section>
-    <script type="text/javascript">
-      var disqus_loaded = false;
+        <p>This tells harp to compile the harp.js project found in <code>_harp</code> into the current directory (root of the project).</p>
+        <p>This project is set up a little differently. Because this is meant for Github Pages, and Github will only serve your site from the root of the repository, we save the root directory for the compiled code, while storing the harp project in the
+          <code>_harp</code> directory. At the end of the day, the time spent was worth it because I was able to learn the intricacies of both Jekyll and Harp.js. To be fair, I learned more about Harp.js.</p>
+        <hr>
+        <p>I have been recently getting to know more about static site generators, and I have to say, the no back-end &quot;movement&quot; (if you can call out that) makes sense. Not all the time, but it is a valid option to consider. Once I learn more,
+          I would love to write a blog post about it.</p>
+        <p>If you would like for me to detail the steps I took to convert the theme, I would consider writing a blog post about it, but only if there is interest.</p>
+      </article>
+      <section class="share">
+        <h3>Share</h3></section>
+      <section itemprop="author" class="author">
+        <div itemscope="" itemtype="http://schema.org/Person" class="details"><img itemprop="image" src="/assets/img/blog-author.jpg" alt="{{site.name}}" class="img-rounded" />
+          <p class="def">Author</p>
+          <h3 class="name"><a itemprop="name" href="http://twitter.com/celsom3" target="_blank">Celso Mireles</a></h3>
+          <p class="desc">I am a freelance web developer and graphic designer that specializes in non-profits and social justice organizations.</p><a itemprop="email" href="mailto:celso.mireles@gmail.com" class="email">celso.mireles@gmail.com</a><br/><br/><a href="https://cash.me/$celsom3"
+            target="_blank" class="email">Send me a cup of coffee.</a></div>
+      </section>
+      <section class="comments">
+        <h3>Comments</h3>
+        <div id="disqus_thread"></div>
+      </section>
+      <script type="text/javascript">
+        var disqus_loaded = false;
 
-      function load_disqus()
-      {
-        disqus_loaded = true;
-        var disqus_shortname = 'celsomireles';
-        var disqus_title = 'Theme Conversion from Jekyll to Harp.js';
-        var disqus_url = 'http://celsomireles.com2016-01-15-from-jekyll-to-harp-js';
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        var ldr = document.getElementById('disqus_loader');
-      };
-      window.onscroll = function(e)
-      {
-        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800))
+        function load_disqus()
         {
-          //hit bottom of page
-          if (disqus_loaded == false) load_disqus()
-        }
-      };
-    </script>
-    <footer>
-      <div class="footer-content">
-        <div class="row">
-          <div class="col-12">
-            <p class="text-center">Made with <a href="http://harpjs.com/" target="_blank">Harp.js</a> and <span class="love">❤ </span> by <a href="https://github.com/celsom3/celsom3.github.io">Celso Mireles Salinas</a></p>
-          </div>
+          disqus_loaded = true;
+          var disqus_shortname = 'celsomireles';
+          var disqus_title = 'Theme Conversion from Jekyll to Harp.js';
+          var disqus_url = 'http://celsomireles.com2016-01-15-from-jekyll-to-harp-js';
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          var ldr = document.getElementById('disqus_loader');
+        };
+        window.onscroll = function(e)
+        {
+          if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800))
+          {
+            //hit bottom of page
+            if (disqus_loaded == false) load_disqus()
+          }
+        };
+      </script>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center">Made with <a href="http://harpjs.com/" target="_blank">Harp.js</a> and <span class="love">❤ </span> by <a href="https://github.com/celsom3/celsom3.github.io">Celso Mireles Salinas</a></p>
         </div>
       </div>
-    </footer>
-    <!--script(src='/assets/js/trasformicons.js')-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script id="dsq-count-scr" src="//celsomireles.disqus.com/count.js" async=""></script>
-    <style>
-      .header-post {
-        background: url('http://s7.postimg.org/wujmtb4u3/2015_04_21_21_16_46.jpg');
-        background-repeat: none;
-        background-position: center;
-        background-size: cover;
-      }
-    </style>
-    <script>
-      (function(i, s, o, g, r, a, m)
+    </div>
+  </footer>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/transformicons.js"></script>
+  <script src="../assets/js/jquery.easing.1.3.js"></script>
+  <script src="../assets/js/nouislider.js"></script>
+  <script src="../assets/js/animatedModal.js"></script>
+  <script src="../assets/js/hovershow.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script id="dsq-count-scr" src="//celsomireles.disqus.com/count.js" async=""></script>
+  <style>
+    .header-post {
+      background: url('http://s7.postimg.org/wujmtb4u3/2015_04_21_21_16_46.jpg');
+      background-repeat: none;
+      background-position: center;
+      background-size: cover;
+    }
+  </style>
+  <script>
+    (function(i, s, o, g, r, a, m)
+    {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function()
       {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function()
-        {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-      ga('create', 'UA-39494279-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </section>
-</head>
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-39494279-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
