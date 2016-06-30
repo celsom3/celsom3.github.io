@@ -2,7 +2,7 @@ $(document).ready(function(){
 	// Make splash full height
 	var wHeight = $(window).height();
 	var wWidth = $(window).width();
-	
+
 	$('#splash').height(857 - $('.main-nav').height() );
 
 	$(window).resize(function(){
@@ -153,6 +153,8 @@ $(document).ready(function(){
 			overflow: 'scroll'
 		});
 
+		$('.noUi-handle').addClass('animated infinite pulse');
+
 
 
 //===============================
@@ -169,9 +171,7 @@ function myHoverShow ( pos ) {
 
 	// Determine which third the mouse is positioned in
 	// and hence, which graphic to display.
-	if ( pos > 66) {
-		whichThird = 3;
-	} else if ( pos > 33 ) {
+	if ( pos > 50) {
 		whichThird = 2;
 	} else  {
 		whichThird = 1;
