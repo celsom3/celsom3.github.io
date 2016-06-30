@@ -2,7 +2,8 @@ $(document).ready(function(){
 	// Make splash full height
 	var wHeight = $(window).height();
 	var wWidth = $(window).width();
-	//$('#splash').css('height', wHeight + 'px');
+	
+	$('#splash').height(857 - $('.main-nav').height() );
 
 	$(window).resize(function(){
 		if($(window).width() > 550){
