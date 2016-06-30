@@ -27,12 +27,13 @@ $(document).ready(function(){
 		;
 
 	// Sticky Nav
-	var  mainNav = $(".main-nav"),
-  stickyClass = "main-nav-scrolled",
-  splashHeight = $('#splash').height();
 
 	$(window).scroll(function() {
-	  if( $(this).scrollTop() > (splashHeight - 31) ) {
+		var  mainNav = $(".main-nav"),
+	  stickyClass = "main-nav-scrolled",
+	  splashHeight = $('#splash').height();
+
+	  if( $(this).scrollTop() > (splashHeight + 50) ) {
 	    mainNav.addClass(stickyClass);
 	  } else {
 	    mainNav.removeClass(stickyClass);

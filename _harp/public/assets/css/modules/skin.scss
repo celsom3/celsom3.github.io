@@ -100,6 +100,10 @@ header{
 
 .dark-gradient{
 	@include linearGradient(darken($brand-1, 26%), darken($brand-1, 33%));
+	background: url('../img/site-splash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 
 }
 
