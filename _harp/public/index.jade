@@ -1,5 +1,5 @@
 .main#main
-	section.container.jumbotron(role='banner')
+	section#me.container.jumbotron(role='banner')
 		.row
 			div.six.columns
 				img.img-responsive(src="assets/img/celso-mireles.jpg", alt="Image of Me", style="width:100%;")
@@ -161,8 +161,8 @@ section#you
 	.container.pad-top-30
 		.row
 			.twelve.columns
-				h1.text-center What Brings You Here?
-				p.lead I'm not complaining or anything, but if you've gotten this far, I'd love to connect about your projects, questions, and general chit chat. Here are all the places you can do that:
+				h1.text-center Let's Chat!
+				p.lead If you've gotten this far, I'd love to connect about your projects, questions, and general chit chat. Here are all the places you can do that:
 				.s-media
 					ul.soc
 						li
@@ -175,27 +175,27 @@ section#you
 							a.soc-linkedin.soc-icon-last(href='https://www.linkedin.com/in/celsomireles', target="_blank")
 
 
-#blog
-	.close-modal.close-blog.text-center
-		img.closebt(src="assets/img/icons/close.svg")
-	.container
-		.modal-content
-			// Your modal content goes here
-
-			for post, slug in public.posts._data
-				.row
-					.col-12
-						article.post-item(role='article', itemscope='itemscope', itemtype='http://schema.org/BlogPosting', itemprop='blogPost')
-							a.datetime(href='/posts/#{ slug }')
-								meta(itemprop='datePublished', content='#{ date }')
-								time(datetime='#{ date }')
-									span.day #{ post.day }
-									span.month-year  #{ post.month} #{ post.year }
-							.content
-								a(href='/posts/#{ slug }')
-									h2.post-title(itemprop='name')= post.title
-								p.description #{ post.excerpt } ....
-									a.link(href='/posts/#{ slug }') Read more about #{ post.title }
-								.tags
-									for tag in post.tags
-										a(href='/tags/##{ tag }') #{ tag }
+//- #blog
+//- 	.close-modal.close-blog.text-center
+//- 		img.closebt(src="assets/img/icons/close.svg")
+//- 	.container
+//- 		.modal-content
+//- 			// Your modal content goes here
+//- 
+//- 			for post, slug in public.posts._data
+//- 				.row
+//- 					.col-12
+//- 						article.post-item(role='article', itemscope='itemscope', itemtype='http://schema.org/BlogPosting', itemprop='blogPost')
+//- 							a.datetime(href='/posts/#{ slug }')
+//- 								meta(itemprop='datePublished', content='#{ date }')
+//- 								time(datetime='#{ date }')
+//- 									span.day #{ post.day }
+//- 									span.month-year  #{ post.month} #{ post.year }
+//- 							.content
+//- 								a(href='/posts/#{ slug }')
+//- 									h2.post-title(itemprop='name')= post.title
+//- 								p.description #{ post.excerpt } ....
+//- 									a.link(href='/posts/#{ slug }') Read more about #{ post.title }
+//- 								.tags
+//- 									for tag in post.tags
+//- 										a(href='/tags/##{ tag }') #{ tag }
