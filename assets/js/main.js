@@ -156,6 +156,14 @@ $(document).ready(function(){
 		$('.noUi-handle').addClass('animated infinite pulse');
 
 
+		// Display random quote
+		displayRandomQuote();
+
+		// Now display a random quote whenever the quote is clicked
+		$('.my-quote').on('click', function(){
+			displayRandomQuote();
+		});
+
 
 //===============================
 //
@@ -244,4 +252,26 @@ function whichQuadrant(pos, middle){
 	}
 
 
+}
+
+function getRandomIntBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function displayQuote( num ) {
+	var num = num;
+	var quotes = [
+		'I am a life long learner that likes to type on the keyboard.',
+		'Fun Fact: I type using the Colemak layout. Slight typying efficiency...unlocked.',
+		'While I graduated with a B.S. Degree in Business Management, my true passion has always been technology.',
+		'I became a coder out of a passion for building tech tools for social justice movements.',
+		'I also like to play guitar, but let\'s stay on the subject of web development.'
+	];
+
+	$('.my-quote').html(quotes[num - 1]);
+}
+
+function displayRandomQuote(){
+	var randInt = getRandomIntBetween(1, 5);
+	displayQuote(randInt);
 }

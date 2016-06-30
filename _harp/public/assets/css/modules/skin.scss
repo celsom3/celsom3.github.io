@@ -272,6 +272,7 @@ header{
 		text-align: center;
 		color: #b5b5b5;
 		position: relative;
+		cursor: pointer;
 		&::before{
 			position:absolute;
 			top: -100px;
