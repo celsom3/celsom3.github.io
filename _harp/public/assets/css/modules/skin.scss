@@ -165,20 +165,20 @@ a{
 // splash
 
 #splash{
-	// position:relative;
-	// color: white;
-	// background: url('../img/site-splash.jpg');
-	// background-repeat: no-repeat;
-	// background-position: center;
-	// background-size: cover;
 	position:relative;
-	top:0px;
-	left:0px;
-	width:100%;
-	height: 100%;
+	color: white;
+	background: url('../img/site-splash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	// position:relative;
+	// top:0px;
+	// left:0px;
+	// width:100%;
+	// height: 100%;
 	overflow-x:hidden;
 
-	@include linearGradient(#02435b, #02203c);
+	//@include linearGradient(#02435b, #02203c);
 	.splash-bg{
 		position: absolute;
 		top:0px;
