@@ -42,7 +42,11 @@ header{
 		margin-left: 10px;
 		img{
 			height: 80px;
-			width:80px;
+			width:200px;
+			transition: all .2s ease-in-out;
+			&:hover{
+				transform: scale(1.1);
+			}
 		}
 	}
 
@@ -84,7 +88,7 @@ body {
 }
 #splash {
 
-  padding-top: 50px;
+  padding-top: 25px;
 
 }
 .main-nav,
@@ -207,7 +211,7 @@ footer{
 				margin-left: 10px;
 				img{
 					height: 80px;
-					width:80px;
+					width:200px;
 				}
 			}
 
