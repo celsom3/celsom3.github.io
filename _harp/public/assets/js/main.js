@@ -54,16 +54,16 @@ $(document).ready(function(){
 
 	// Show slider
 
-	var slider = document.getElementById('slider');
-
-	noUiSlider.create(slider, {
-		start: [50],
-		connect: false,
-		range: {
-			'min': 0,
-			'max': 100
-		}
-	});
+	// var slider = document.getElementById('slider');
+	//
+	// noUiSlider.create(slider, {
+	// 	start: [50],
+	// 	connect: false,
+	// 	range: {
+	// 		'min': 0,
+	// 		'max': 100
+	// 	}
+	// });
 
 
 		// The Splash section
@@ -74,14 +74,14 @@ $(document).ready(function(){
 		//console.log(middlePoint);
 		// var whichQuadrant = whichQuadrant(mousePos, middlePoint);
 
-		$(document).mousemove(function(){
-
-			var posPercent = ((mousePos.x/wWidth) * 100);
-
-			slider.noUiSlider.set( posPercent );
-
-			myHoverShow( posPercent );
-		});
+		// $(document).mousemove(function(){
+		//
+		// 	var posPercent = ((mousePos.x/wWidth) * 100);
+		//
+		// 	slider.noUiSlider.set( posPercent );
+		//
+		// 	myHoverShow( posPercent );
+		// });
 
 
 		// Initialize Modals
@@ -265,13 +265,15 @@ function displayQuote( num ) {
 		'Fun Fact: I type using the Colemak layout. Slight typying efficiency...unlocked.',
 		'While I graduated with a B.S. Degree in Business Management, my true passion has always been technology.',
 		'I became a coder out of a passion for building tech tools for social justice movements.',
-		'I also like to play guitar, but let\'s stay on the subject of web development.'
+		'I also like to play guitar, but let\'s stay on the subject of web development.',
+		'Have you seen the i18n javascript library I wrote? Check it out in my Portfolio.',
+		'I get more and more fascinated with the back-end development, but my graphic design experience balances what I bring to the table.'
 	];
 
 	$('.my-quote').html(quotes[num - 1]);
 }
 
 function displayRandomQuote(){
-	var randInt = getRandomIntBetween(1, 5);
+	var randInt = getRandomIntBetween(1, 7);
 	displayQuote(randInt);
 }

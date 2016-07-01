@@ -264,6 +264,9 @@ header{
 	width: 100%;
 	padding: 40px;
 	height: 100%;
+	img{
+		animation-duration: 3s;
+	}
 	.my-quote{
 		margin: 35% 1px;
 		font-size: 2.3em;
@@ -273,6 +276,7 @@ header{
 		color: #b5b5b5;
 		position: relative;
 		cursor: pointer;
+		animation-duration: 3s;
 		&::before{
 			position:absolute;
 			top: -100px;
@@ -515,12 +519,13 @@ $tcon-svgchevron-timing: 3s !default;
 			.container{
 			}
 			.portfolio-item{
+				width: 100%;
 				.box-bg{
 				}
 				.box-content{
 
 					h3{
-						font-size: 1.5em;
+						font-size: 1em;
 						font-weight: 600;
 						padding-top: 35%;
 					}
@@ -534,7 +539,22 @@ $tcon-svgchevron-timing: 3s !default;
 
 @media only screen and (min-width: 1000px) {
     /* Large laptop styles (wider than 1024 pixels) */
+		#portfolio{
+			.container{
+			}
+			.portfolio-item{
+				.box-bg{
+				}
+				.box-content{
 
+					h3{
+						font-size: 1.7em;
+						font-weight: 600;
+						padding-top: 35%;
+					}
+				}
+			}
+		}
 }
 
 @media only screen and (min-width: 1200px) {
