@@ -5,6 +5,9 @@
 	"blog": {
 		"layout": "_blog"
 	},
+	"portfolio": {
+		"layout": "_layout"
+	},
 	"feed": {
 		"layout": "false"
 	}
