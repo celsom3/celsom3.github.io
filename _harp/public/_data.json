@@ -5,7 +5,7 @@
 	"blog": {
 		"layout": "_blog"
 	},
-	"portfolio": {
+	"work": {
 		"layout": "_layout"
 	},
 	"feed": {

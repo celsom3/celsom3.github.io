@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	// tipsy
+	$('svg#celso > polygon').tipsy({gravity: 'e'});
 
 
 	// transformicons
