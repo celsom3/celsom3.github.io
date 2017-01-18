@@ -1,22 +1,14 @@
-header.main-nav
+.green-line
+section.main-nav
 	.row
-		.six.columns.nav-brand
+		.col-12.nav-brand
 			a.brand(href="index.html")
-				img(src="assets/img/site-logo.svg" alt="Celso Mireles")
+				!= partial('/site-logo')
 
-			#burger
-				button.tcon.tcon-menu--xcross(type='button', aria-label='toggle menu')
-					span.tcon-menu__lines(aria-hidden='true')
-					span.tcon-visuallyhidden toggle menu
-					span.tcon-indicator(aria-label='scroll', aria-hidden='true')
-
-		.six.columns.nav-slide.animated
-			nav
-				ul
-					li
-						//- a.page-scrollx#modal-link-blog(href="#blog") Blog
-						a.page-scrollx(href="#me") About
-					li
-						a.page-scrollx(href="#portfolio") Work
-					li
-						a.page-scrollx(href="#you") You
+		//- .col-6.nav-slide.animated
+		//- 	nav
+		//- 		ul
+		//- 			li
+		//- 				a.page-scrollx(href="/work") Work
+		//- 			li
+		//- 				a.page-scrollx(href="/blog") Blog
