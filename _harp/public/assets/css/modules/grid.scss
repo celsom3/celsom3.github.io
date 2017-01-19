@@ -1,5 +1,8 @@
 /* 12-column responsive grid */
-
+.container{
+  max-width: 800px;
+  margin: 0px auto;
+}
 .row {
     clear: both;
     max-width: 1040px;
