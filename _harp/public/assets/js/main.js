@@ -2,12 +2,23 @@ $(document).ready(function(){
 
 
 	// tipsy
-	$('svg#celso > polygon').tipsy({gravity: 's', fade: true, offset: 0});
+	$('svg#celso > polygon').tipsy({gravity: 's', fade: true, offset: 0, trigger: 'focus'});
 
 	$('svg#celso > polygon').hover(function(e){
 		if($(this).attr('data-link')){
 			$(this).css('cursor', 'pointer');
 		}
+	})
+
+	var isActuallyHovering = false;
+
+	$('svg#celso > polygon').mouseenter(function(){
+		$('#svgme svg > polygon').removeClass('svg-hovered');
+		$(this).trigger('focus');
+		isActuallyHovering = true;
+	}).mouseleave(function(){
+		$(this).trigger('blur');
+		isActuallyHovering = false;
 	})
 
 	$('svg#celso > polygon').on('click', function(e) {
@@ -22,13 +33,15 @@ $(document).ready(function(){
 
 	function randomHover() {
 		setInterval(function(){
-			$('#svgme svg > polygon').removeClass('svg-hovered').trigger('mouseleave');
-			if($('.tipsy').length === 0) {
-				var randomPoly = getRandomInt(1, 35);
-				var thing = $('#svgme svg > polygon');
+			if(!isActuallyHovering){
+				$('#svgme svg > polygon').removeClass('svg-hovered').trigger('blur');
+				if($('.tipsy').length === 0) {
+					var randomPoly = getRandomInt(1, 35);
+					var thing = $('#svgme svg > polygon');
 
-				$(thing[randomPoly]).addClass('svg-hovered');
-				$(thing[randomPoly]).trigger('mouseenter');
+					$(thing[randomPoly]).addClass('svg-hovered');
+					$(thing[randomPoly]).trigger('focus');
+				}
 			}
 
 
