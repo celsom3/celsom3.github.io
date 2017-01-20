@@ -5,12 +5,6 @@
 
 body {
   background-color: $brand-5;
-  background: -moz-radial-gradient(center, ellipse cover,  #343434 0%, #262626 100%);
-  background: -webkit-radial-gradient(center, ellipse cover,  #343434 0%,#262626 100%);
-  background: radial-gradient(ellipse at center,  #343434 0%,#262626 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343434', endColorstr='#262626',GradientType=1 );
-
-
   color: #e8e8e8;
 }
 
