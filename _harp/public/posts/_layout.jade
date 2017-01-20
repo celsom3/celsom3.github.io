@@ -6,13 +6,19 @@ body
 	!= partial('../_partial/header-post')
 
 	.container
-		section.post(itemscope, itemtype="http://schema.org/BlogPosting", itemprop="articleBody")
-			article#scroll.post-content(role="article")
-				!= yield
+		.row
+			.col.col-12
+				if date
+					time.date(itemprop='datePublished', datetime='#{date}') #{month} #{day}, #{year}
+		.row
+			.col.col-12
+				section.post(itemscope, itemtype="http://schema.org/BlogPosting", itemprop="articleBody")
+					article#scroll.post-content(role="article")
+						!= yield
 
-			!= partial("../_partial/share")
-			!= partial("../_partial/author")
-			!= partial("../_partial/comments")
+					!= partial("../_partial/share")
+					!= partial("../_partial/author")
+					!= partial("../_partial/comments")
 
 	!= partial("../_partial/blog-footer")
 

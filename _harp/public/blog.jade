@@ -1,11 +1,14 @@
 section.page-content.container
 	main#scroll.home(role='main', itemprop='mainContentOfPage', itemscope='itemscope', itemtype='http://schema.org/Blog')
 	.row
-	for post, slug in public.posts._data
-		.col-4
-			a(href='/posts/#{ slug }')
-				img.img-responsive(src="#{ post.img }", alt="")
-			
+		for post, slug in public.posts._data
+			.col.col-4
+				a(href='/posts/#{ slug }', title='#{ post.title }')
+					if post.img
+						img.img-responsive(src="#{ post.img }", alt="#{ post.title }")
+					else 
+						img.img-responsive(src="http://lorempixel.com/620/348")
+				
 			//- .col-12
 			//- 	article.post-item(role='article', itemscope='itemscope', itemtype='http://schema.org/BlogPosting', itemprop='blogPost')
 			//- 		a.datetime(href='/posts/#{ slug }')
