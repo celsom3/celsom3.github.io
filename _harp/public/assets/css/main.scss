@@ -79,7 +79,30 @@ section.main-nav {
   clear: both;
   margin: 20px 0px;
 
+  .mobile-menu{
+    width: 20%;
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .nav-slide{
+    display: none;
+  }
+
+  @media (min-width: 550px) {
+    .mobile-menu{
+      display: none;
+    }
+
+    .nav-slide{
+      display: block;
+    }
+  }
+
   .brand {
+    width: 80%;
     svg {
       width: 100%;
     }
