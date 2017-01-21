@@ -1,7 +1,21 @@
 {
+	"2017-01-05-celebrating-my-first-web-application": {
+		"title": "Celebrating My First Web Application",
+		"date": "2017-01-05 12:02:35 -0200",
+		"day": "05",
+		"month": "January",
+		"year": "2017",
+		"description": "All that work is paying off",
+		"tags": ["social justice", "development"],
+		"categories": "Development",
+		"twitter_text": "All that work is paying off",
+		"excerpt": "All that work is paying off",
+		"og_img": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfeAAAAJDNjNWE2MTMwLWY2MDYtNDk1My05NTA4LTY5OTUzMmRlNTYwNw.png",
+		"img": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfeAAAAJDNjNWE2MTMwLWY2MDYtNDk1My05NTA4LTY5OTUzMmRlNTYwNw.png"
+	},
 	"2016-06-10-developing-redadas-de-obama-part-1": {
 		"title": "Developing RedadasDeObama.com (Part 1)",
-		"date": "2017-06-10 12:02:35 -0200",
+		"date": "2016-06-10 12:02:35 -0200",
 		"day": "10",
 		"month": "June",
 		"year": "2016",

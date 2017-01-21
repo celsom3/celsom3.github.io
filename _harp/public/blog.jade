@@ -1,8 +1,8 @@
-section.page-content.container
+section#blog-feed.page-content.container
 	main#scroll.home(role='main', itemprop='mainContentOfPage', itemscope='itemscope', itemtype='http://schema.org/Blog')
 	.row
 		for post, slug in public.posts._data
-			.col.col-4
+			.col.col-4.blog-post-item
 				a(href='/posts/#{ slug }', title='#{ post.title }')
 					if post.img
 						img.img-responsive(src="#{ post.img }", alt="#{ post.title }")

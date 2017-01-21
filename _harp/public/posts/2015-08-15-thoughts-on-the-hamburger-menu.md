@@ -1,16 +1,3 @@
----
-layout: post
-title:  "Thoughts on the Hamburger Menu"
-date:   2015-08-15 20:08:35 -0200
-image: '/assets/img/'
-description: 'Because something this popular cannot be wrong... right?'
-tags:
-- design
-- UI
-categories:
-- Design
-twitter_text: 'Thoughts on the Hamburger Menu'
----
 
 I must admit, I would internally roll my eyes when friends bash on the now famous _Hamburger Menu_.
 

@@ -194,11 +194,11 @@ section.main-nav {
   .header-post-bg{
     width: 100%;
     height: 100%;
-    padding: 50px 40px;
-    background-color: rgba(0, 200, 44, 0.5);
+
+    background-color: rgba(0, 200, 44, 0.87);
 
     .content {
-
+      padding: 50px 40px;
       h1 {
         font-family: 'Arvo';
         font-size: 2em;
@@ -274,6 +274,21 @@ section#portfolio{
     color: $brand-3;
   }
 
+}
+
+section#blog-feed{
+
+  .blog-post-item{
+    height: auto;
+      a{
+        height: auto;
+
+        img {
+          height: 100%;
+          
+        }
+      }
+  }
 }
 
 section.post{
