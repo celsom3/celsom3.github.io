@@ -85,10 +85,58 @@ section.main-nav {
     position: absolute;
     top: 20px;
     left: 20px;
+    z-index: 300;
+
+    svg {
+      cursor: pointer;
+    }
   }
 
   .nav-slide{
     display: none;
+
+    &.display{
+      display: flex;
+      width:100vw;
+      height: 100vh;
+      background: rgba(0, 200, 44, 0.87);
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 200;
+
+      ul {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        li {
+          width: 100vw;
+          display: flex;
+          vertical-align: baseline;
+
+          a {
+            width: 100vw;
+            text-align: center;
+            font-size: 2.3em;
+            z-index: 200;
+            &:visited {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
   }
 
   @media (min-width: 550px) {
@@ -98,6 +146,27 @@ section.main-nav {
 
     .nav-slide{
       display: block;
+
+      nav {
+
+        ul {
+          margin: 30px auto;
+
+          li {
+            list-style: none;
+            display: inline-block;
+            margin: auto 20px;
+
+            a {
+              text-decoration: none;
+              color: #fff;
+              font-size: 1.3em;
+              font-weight: 800;
+              font-family: 'Arvo';
+            }
+          }
+        }
+      }
     }
   }
 
@@ -114,26 +183,7 @@ section.main-nav {
     }
   }
 
-  nav {
 
-    ul {
-      margin: 30px auto;
-
-      li {
-        list-style: none;
-        display: inline-block;
-        margin: auto 20px;
-
-        a {
-          text-decoration: none;
-          color: #fff;
-          font-size: 1.3em;
-          font-weight: 800;
-          font-family: 'Arvo';
-        }
-      }
-    }
-  }
 }
 
 

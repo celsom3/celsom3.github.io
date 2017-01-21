@@ -1,5 +1,34 @@
 $(document).ready(function(){
 
+	var hamburger = document.querySelector('.mobile-menu');
+	var collapsibleNav = document.querySelector('#collapsible-nav');
+	var navLinks = document.querySelectorAll('a.nav-link');
+	var isVisible = collapsibleNav.dataset.visible === 'visible';
+
+	hamburger.addEventListener('click', function() {
+	  var collapsibleNav = document.querySelector('#collapsible-nav');
+	  var navLinks = document.querySelectorAll('a.nav-link');
+	  var isVisible = collapsibleNav.dataset.visible === 'visible';
+
+	  if(isVisible) {
+	    collapsibleNav.classList.remove('display');
+	    collapsibleNav.setAttribute('data-visible', 'hidden');
+	  } else {
+	    collapsibleNav.classList.add('display');
+	    collapsibleNav.setAttribute('data-visible', 'visible');
+	  }
+	});
+
+	collapsibleNav.addEventListener('click', function(){
+		var isVisible = collapsibleNav.dataset.visible === 'visible';
+		var collapsibleNav = document.querySelector('#collapsible-nav');
+
+		if(isVisible){
+			collapsibleNav.classList.remove('visible');
+			collapsibleNav.setAttribute('data-visible', 'hidden');
+		}
+	});
+
 
 	// tipsy
 	$('svg#celso > polygon').tipsy({gravity: 's', fade: true, offset: 0, trigger: 'focus'});
