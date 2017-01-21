@@ -2,12 +2,12 @@ doctype html
 head
 	!= partial("../_partial/blog-head")
 body
-
+	!= partial('../_partial/header-default')
 	!= partial('../_partial/header-post')
 
 	.container
 		.row
-			.col.col-12
+			.col.col-12(style="margin-top:20px;")
 				if date
 					time.date(itemprop='datePublished', datetime='#{date}') #{month} #{day}, #{year}
 		.row

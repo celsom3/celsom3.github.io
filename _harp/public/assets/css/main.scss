@@ -8,6 +8,15 @@ body {
   color: #e8e8e8;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+  line-height: 180%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 180%;
+  font-weight: 800;
+}
+
 h1{
   font-size: 2.5em;
 }
@@ -33,6 +42,19 @@ h6{
 }
 a {
   color: $brand-4;
+  font-weight: bold;
+  &:hover {
+    color: lighten($brand-4, 10%);
+  }
+}
+
+ul, ol {
+  margin: 15px auto 15px 30px;
+
+}
+
+ol > li {
+  list-style: decimal;
 }
 
 .text-center {
@@ -121,10 +143,91 @@ section.main-nav {
   margin-top: 70px;
 }
 
-section.post{
-  .post-content{
-    padding: 20px 30px;
+section#portfolio{
+  .col{
+    padding: 5px;
   }
+  .portfolio-item {
+    position: relative;
+    -moz-transition: all $anim-timing-service;
+    -webkit-transition: all $anim-timing-service;
+    transition: all $anim-timing-service;
+
+    .box-bg{
+      position: relative;
+    }
+
+    a.box-content{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background: rgba(11, 193, 40, 0.87);
+      color: #fff;
+      -moz-transition: all $anim-timing-service;
+      -webkit-transition: all $anim-timing-service;
+      transition: all $anim-timing-service;
+
+      h3 {
+        font-size: 1.5em;
+        padding: 20%;
+        -moz-transition: all $anim-timing-service;
+        -webkit-transition: all $anim-timing-service;
+        transition: all $anim-timing-service;
+
+        @media (min-width: 550px) and (max-width: 765px) {
+          font-size: 1em;
+        }
+      }
+
+
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      z-index: 100;
+      a.box-content{
+        background: rgba(11, 193, 40, 0.37);
+      }
+
+    }
+  }
+}
+
+.modal-content{
+  h3, p{
+    color: $brand-3;
+  }
+
+}
+
+section.post{
+
+  .post-content{
+    padding: 50px auto;
+    line-height: 180%;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(250,250,250,0.2);
+  }
+}
+
+section.author {
+  clear: both;
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(250,250,250,0.2);
+  img {
+    float:left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+}
+
+section.comments {
+  clear: both;
 }
 
 footer {

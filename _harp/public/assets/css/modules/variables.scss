@@ -7,6 +7,7 @@ $brand-5: #2e2d2d;
 $brand-4: #0bc128;
 $font-heading: 'Arvo', serif;
 $font-content: 'Open Sans', sans-serif;
+$anim-timing-service: .5s;
 
 @mixin linearGradient($top, $bottom){
     background: $top; /* Old browsers */
