@@ -10,8 +10,8 @@
 		"categories": "Development",
 		"twitter_text": "All that work is paying off",
 		"excerpt": "All that work is paying off",
-		"og_img": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfeAAAAJDNjNWE2MTMwLWY2MDYtNDk1My05NTA4LTY5OTUzMmRlNTYwNw.png",
-		"img": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAfeAAAAJDNjNWE2MTMwLWY2MDYtNDk1My05NTA4LTY5OTUzMmRlNTYwNw.png"
+		"og_img": "https://s20.postimg.org/imbb0zubh/immigratio_wizard.jpg",
+		"img": "https://s20.postimg.org/imbb0zubh/immigratio_wizard.jpg"
 	},
 	"2016-06-10-developing-redadas-de-obama-part-1": {
 		"title": "Developing RedadasDeObama.com (Part 1)",
@@ -24,8 +24,8 @@
 		"categories": "Development",
 		"twitter_text": "Developing RedadasDeObama.com: My first real shot at an open source project.",
 		"excerpt": "My first real shot at an open source project.",
-		"og_img": "https://dl.dropboxusercontent.com/u/16972085/blog/2016-04-12-10.37.43.jpg",
-		"img": "https://dl.dropboxusercontent.com/u/16972085/blog/2016-04-12-10.37.43.jpg"
+		"og_img": "https://s20.postimg.org/90hqkp35p/redadas_de_obama.jpg",
+		"img": "https://s20.postimg.org/90hqkp35p/redadas_de_obama.jpg"
 	},
 	"2016-01-17-big-city-blues": {
     "title": "Big City Blues",
@@ -79,7 +79,9 @@
 		"tags": ["entrepreneur", "networking"],
 		"categories": "Random",
 		"twitter_text": "Lessons from my first Creatathon",
-		"excerpt": "This past weekend I participated in Arizona’s first Creatathon. The idea of the event is to get teams of creatives into a room for 24 hours to deliver pro-bono value to 7 Arizona nonprofits. I served as team lead for the Big Brothers Big Sisters"
+		"excerpt": "This past weekend I participated in Arizona’s first Creatathon. The idea of the event is to get teams of creatives into a room for 24 hours to deliver pro-bono value to 7 Arizona nonprofits. I served as team lead for the Big Brothers Big Sisters",
+    "og_img":"https://s20.postimg.org/b7lz8m8fx/logo.jpg",
+    "img":"https://s20.postimg.org/b7lz8m8fx/logo.jpg"
   },
 	"2015-08-15-thoughts-on-the-hamburger-menu": {
     "title": "Thoughts on the Hamburger Menu",
@@ -91,7 +93,9 @@
 		"tags": ["design", "web development"],
 		"categories": "Development",
 		"twitter_text": "Thoughts on the Hamburger Menu",
-		"excerpt": "I must admit, I would internally roll my eyes when friends bash on the now famous Hamburger Menu."
+		"excerpt": "I must admit, I would internally roll my eyes when friends bash on the now famous Hamburger Menu.",
+    "og_img": "https://s20.postimg.org/b7lz8m8fx/logo.jpg",
+    "img": "https://s20.postimg.org/b7lz8m8fx/logo.jpg"
   },
 	"2015-08-13-change-of-scenery": {
     "title": "Change of Scenery",
@@ -103,7 +107,9 @@
 		"tags": ["jekyll", "web"],
 		"categories": "Development",
 		"twitter_text": "New website look.",
-		"excerpt": "I haven't really had an online space to share some writing lately. I used to have a WordPress site, but that was too complicated to handle for just a simple blog."
+		"excerpt": "I haven't really had an online space to share some writing lately. I used to have a WordPress site, but that was too complicated to handle for just a simple blog.",
+    "og_img": "https://s20.postimg.org/b7lz8m8fx/logo.jpg",
+    "img": "https://s20.postimg.org/b7lz8m8fx/logo.jpg"
   }
 
 }
