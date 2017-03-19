@@ -6,8 +6,10 @@ section#blog-feed.page-content.container
 				a(href='/posts/#{ slug }', title='#{ post.title }')
 					if post.img
 						img.img-responsive(src="#{ post.img }", alt="#{ post.title }")
+						p
+							span #{ post.title }
 					else 
-						img.img-responsive(src="http://lorempixel.com/620/348")
+						img.img-responsive(src="https://s20.postimg.org/b7lz8m8fx/logo.jpg")
 				
 			//- .col-12
 			//- 	article.post-item(role='article', itemscope='itemscope', itemtype='http://schema.org/BlogPosting', itemprop='blogPost')
