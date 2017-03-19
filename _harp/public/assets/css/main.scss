@@ -324,6 +324,18 @@ section#blog-feed {
 
 section.post{
 
+p {
+  line-height: 1.6em;
+  margin-bottom: 20px;
+}
+
+pre {
+  padding: 20px;
+  margin: 15px auto;
+  background: #121212;
+  border-radius: 9px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.32);
+}
   .post-content{
     padding: 50px auto;
     line-height: 180%;
