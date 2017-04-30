@@ -31,7 +31,12 @@ $(document).ready(function(){
 
 
 	// tipsy
-	$('svg#celso > polygon').tipsy({gravity: 's', fade: true, offset: 0, trigger: 'focus'});
+	$('svg#celso > polygon').tipsy({
+		gravity: 's',
+		fade: true,
+		offset: 0,
+		trigger: 'focus'
+	});
 
 	$('svg#celso > polygon').hover(function(e){
 		if($(this).attr('data-link')){
